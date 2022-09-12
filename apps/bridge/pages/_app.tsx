@@ -1,4 +1,4 @@
-import { PancakeTheme, ResetCSS, dark, light, ModalProvider } from '@arborswap/uikit'
+import { ArborTheme, ResetCSS, dark, light, ModalProvider } from '@arborswap/uikit'
 import { useEffect, useState } from 'react'
 import { AppProps } from 'next/app'
 import Script from 'next/script'
@@ -9,7 +9,7 @@ import { Menu } from '../components/Menu'
 
 declare module 'styled-components' {
   /* eslint-disable @typescript-eslint/no-empty-interface */
-  export interface DefaultTheme extends PancakeTheme {}
+  export interface DefaultTheme extends ArborTheme {}
 }
 
 const StyledThemeProvider: React.FC<React.PropsWithChildren> = (props) => {
@@ -63,17 +63,17 @@ function MyApp({ Component, pageProps }: AppProps) {
         />
         <meta
           name="description"
-          content="Cheaper and faster than Uniswap? Discover PancakeSwap, the leading DEX on BNB Smart Chain (BSC) with the best farms in DeFi and a lottery for CAKE."
+          content="Cheaper and faster than Uniswap? Discover ArborSwap, the leading DEX on BNB Smart Chain (BSC) with the best farms in DeFi and a lottery for CAKE."
         />
         <meta name="theme-color" content="#1FC7D4" />
         <meta name="twitter:image" content="https://pancakeswap.finance/images/hero.png" />
         <meta
           name="twitter:description"
-          content="The most popular AMM on BSC! Earn CAKE through yield farming or win it in the Lottery, then stake it in Syrup Pools to earn more tokens! Initial Farm Offerings (new token launch model pioneered by PancakeSwap), NFTs, and more, on a platform you can trust."
+          content="The most popular AMM on BSC! Earn CAKE through yield farming or win it in the Lottery, then stake it in Syrup Pools to earn more tokens! Initial Farm Offerings (new token launch model pioneered by ArborSwap), NFTs, and more, on a platform you can trust."
         />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="🥞 PancakeSwap - A next evolution DeFi exchange on BNB Smart Chain (BSC)" />
-        <title>PancakeSwap Bridge</title>
+        <meta name="twitter:title" content="🥞 ArborSwap - A next evolution DeFi exchange on BNB Smart Chain (BSC)" />
+        <title>ArborSwap Bridge</title>
       </Head>
       <NextThemeProvider>
         <StyledThemeProvider>

@@ -22,7 +22,7 @@ import ForSaleTableRows from './ForSaleTableRows'
 import { StyledSortButton, TableHeading } from '../../shared/styles'
 import UpdateIndicator from './UpdateIndicator'
 import { Arrow, PageButtons } from '../../../../components/PaginationButtons'
-import { usePancakeBunnyOnSaleNfts } from '../../../../hooks/usePancakeBunnyOnSaleNfts'
+import { useArborBunnyOnSaleNfts } from '../../../../hooks/useArborBunnyOnSaleNfts'
 
 const ITEMS_PER_PAGE_DESKTOP = 10
 const ITEMS_PER_PAGE_MOBILE = 5
@@ -64,7 +64,7 @@ const ForSaleTableCard: React.FC<React.PropsWithChildren<ForSaleTableCardProps>>
     isFetchingNfts,
     isLastPage,
     isValidating,
-  } = usePancakeBunnyOnSaleNfts(bunnyId, nftMetadata, itemsPerPage * 10)
+  } = useArborBunnyOnSaleNfts(bunnyId, nftMetadata, itemsPerPage * 10)
 
   const [internalPage, setInternalPage] = useState(1)
 
@@ -129,7 +129,7 @@ const ForSaleTableCard: React.FC<React.PropsWithChildren<ForSaleTableCardProps>>
       >
         <SellIcon width="24px" height="24px" />
         <Text bold>{t('For Sale')}</Text>
-        <UpdateIndicator isFetchingPancakeBunnies={isValidating} />
+        <UpdateIndicator isFetchingArborBunnies={isValidating} />
       </Grid>
       <TableHeading flex="0 1 auto" gridTemplateColumns="2fr 2fr 1fr" py="12px">
         <StyledSortButton type="button" onClick={togglePriceSort}>

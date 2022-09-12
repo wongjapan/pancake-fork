@@ -19,10 +19,10 @@ export const getMulticallAddress = (chainId?: number) => {
 export const getLotteryV2Address = () => {
   return getAddress(addresses.lotteryV2)
 }
-export const getPancakeProfileAddress = () => {
+export const getArborProfileAddress = () => {
   return getAddress(addresses.pancakeProfile)
 }
-export const getPancakeBunniesAddress = () => {
+export const getArborBunniesAddress = () => {
   return getAddress(addresses.pancakeBunnies)
 }
 export const getBunnyFactoryAddress = () => {
@@ -99,7 +99,7 @@ export const getNftMarketAddress = () => {
 export const getNftSaleAddress = () => {
   return getAddress(addresses.nftSale)
 }
-export const getPancakeSquadAddress = () => {
+export const getArborSquadAddress = () => {
   return getAddress(addresses.pancakeSquad)
 }
 export const getPotteryDrawAddress = () => {

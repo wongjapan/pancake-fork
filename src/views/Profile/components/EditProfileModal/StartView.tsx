@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { useWeb3React } from '@arborswap/wagmi'
 import { Button, Flex, Text, InjectedModalProps } from '@arborswap/uikit'
 import { formatBigNumber } from 'utils/formatBalance'
-import { getPancakeProfileAddress } from 'utils/addressHelpers'
+import { getArborProfileAddress } from 'utils/addressHelpers'
 import { useCake } from 'hooks/useContract'
 import { useGetCakeBalance } from 'hooks/useTokenBalance'
 import { useTranslation } from '@arborswap/localization'
@@ -69,7 +69,7 @@ const StartPage: React.FC<React.PropsWithChildren<StartPageProps>> = ({
       const approvalNeeded = await requiresApproval(
         cakeContract,
         account,
-        getPancakeProfileAddress(),
+        getArborProfileAddress(),
         minimumCakeRequired,
       )
       setNeedsApproval(approvalNeeded)

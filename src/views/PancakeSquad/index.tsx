@@ -7,8 +7,8 @@ import BunniesSection from './components/BunniesSection'
 import EventDescriptionSection from './components/EventDescriptionSection'
 import EventStepsSection from './components/EventStepsSection'
 import FaqSection from './components/FaqSection'
-import PancakeSquadHeader from './components/Header'
-import { PancakeSquadContext } from './context'
+import ArborSquadHeader from './components/Header'
+import { ArborSquadContext } from './context'
 import useEventInfos from './hooks/useEventInfos'
 import useUserInfos from './hooks/useUserInfos'
 import { StyledSquadContainer } from './styles'
@@ -17,7 +17,7 @@ import { getUserStatus } from './utils'
 
 const REFRESH_INTERVAL = 4000
 
-const PancakeSquad: React.FC<React.PropsWithChildren> = () => {
+const ArborSquad: React.FC<React.PropsWithChildren> = () => {
   const { account } = useWeb3React()
   const { hasProfile, isInitialized } = useProfile()
   const [eventInfos, setEventInfo] = useState<EventInfos>()
@@ -50,9 +50,9 @@ const PancakeSquad: React.FC<React.PropsWithChildren> = () => {
   }, [account])
 
   return (
-    <PancakeSquadContext.Provider value={{ isUserEnabled, setIsUserEnabled }}>
+    <ArborSquadContext.Provider value={{ isUserEnabled, setIsUserEnabled }}>
       <StyledSquadContainer>
-        <PancakeSquadHeader
+        <ArborSquadHeader
           account={account}
           isLoading={isLoading}
           userInfos={userInfos}
@@ -71,8 +71,8 @@ const PancakeSquad: React.FC<React.PropsWithChildren> = () => {
         <ArtistSection />
         <FaqSection />
       </StyledSquadContainer>
-    </PancakeSquadContext.Provider>
+    </ArborSquadContext.Provider>
   )
 }
 
-export default PancakeSquad
+export default ArborSquad

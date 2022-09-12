@@ -1,6 +1,6 @@
 # eslint-config-pancake
 
-Pancake Eslint config with:
+Arbor Eslint config with:
 
 - Airbnb config
 - Typescript

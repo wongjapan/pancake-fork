@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { getCollectionDistributionApi, getNftsFromCollectionApi } from 'state/nftMarket/helpers'
 import { ApiCollectionDistribution, ApiResponseCollectionTokens, ApiSingleTokenData } from 'state/nftMarket/types'
-import { getPancakeBunniesAddress } from 'utils/addressHelpers'
+import { getArborBunniesAddress } from 'utils/addressHelpers'
 import { multicallv2 } from 'utils/multicall'
 import pancakeBunniesAbi from 'config/abi/pancakeBunnies.json'
 import useSWRImmutable from 'swr/immutable'
@@ -46,7 +46,7 @@ export const useGetCollectionDistributionPB = () => {
       // Use on chain data to get most updated totalSupply and bunnyCount data. Nft Api Data not updated frequently.
       const tokenIds = Object.keys(apiResponse.attributesDistribution)
       const bunnyCountCalls = tokenIds.map((tokenId) => ({
-        address: getPancakeBunniesAddress(),
+        address: getArborBunniesAddress(),
         name: 'bunnyCount',
         params: [tokenId],
       }))

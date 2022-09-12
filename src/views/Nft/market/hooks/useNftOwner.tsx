@@ -2,7 +2,7 @@ import { useWeb3React } from '@arborswap/wagmi'
 import { useEffect, useState } from 'react'
 import { useErc721CollectionContract } from 'hooks/useContract'
 import { NftToken } from 'state/nftMarket/types'
-import { getPancakeProfileAddress } from 'utils/addressHelpers'
+import { getArborProfileAddress } from 'utils/addressHelpers'
 import { NOT_ON_SALE_SELLER } from 'config/constants'
 import useSWR from 'swr'
 
@@ -12,7 +12,7 @@ const useNftOwner = (nft: NftToken, isOwnNft = false) => {
   const [isLoadingOwner, setIsLoadingOwner] = useState(true)
   const { reader: collectionContract } = useErc721CollectionContract(nft.collectionAddress)
   const currentSeller = nft.marketData?.currentSeller
-  const pancakeProfileAddress = getPancakeProfileAddress()
+  const pancakeProfileAddress = getArborProfileAddress()
   const { collectionAddress, tokenId } = nft
   const { data: tokenOwner } = useSWR(
     collectionContract ? ['nft', 'ownerOf', collectionAddress, tokenId] : null,

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { scales, PancakeToggleProps, HandleProps, InputProps, ScaleKeys } from "./types";
+import { scales, ArborToggleProps, HandleProps, InputProps, ScaleKeys } from "./types";
 
 const scaleKeyValues = {
   sm: {
@@ -8,7 +8,7 @@ const scaleKeyValues = {
     toggleHeight: "20px", // General Height and
     toggleWidth: "36px", // Width of a toggle box
     pancakeThickness: "1px", // Bottom shadow of a pancake
-    pancakeTwoOffset: "0px", // Pancakes don't look good when they are concentric
+    pancakeTwoOffset: "0px", // Arbors don't look good when they are concentric
     pancakeThreeOffset: "-3px", // so pancake 2 and 3 are shifted a little bit
     butterTop: "3px", // Fine adjustments for butter position
     butterLeft: "10px",
@@ -63,11 +63,11 @@ const scaleKeyValues = {
 
 const getScale =
   (property: ScaleKeys) =>
-  ({ scale = scales.LG }: PancakeToggleProps) => {
+  ({ scale = scales.LG }: ArborToggleProps) => {
     return scaleKeyValues[scale][property];
   };
 
-export const PancakeStack = styled.div<HandleProps>`
+export const ArborStack = styled.div<HandleProps>`
   position: relative;
   display: inline-block;
 
@@ -145,7 +145,7 @@ export const PancakeStack = styled.div<HandleProps>`
   }
 `;
 
-export const PancakeInput = styled.input<InputProps>`
+export const ArborInput = styled.input<InputProps>`
   height: 40px;
   left: 0;
   opacity: 0;
@@ -183,7 +183,7 @@ export const PancakeInput = styled.input<InputProps>`
   }
 `;
 
-export const PancakeLabel = styled.label<PancakeToggleProps>`
+export const ArborLabel = styled.label<ArborToggleProps>`
   width: ${getScale("toggleWidth")};
   height: ${getScale("toggleHeight")};
   background: ${({ theme, checked }) => theme.colors[checked ? "success" : "input"]};

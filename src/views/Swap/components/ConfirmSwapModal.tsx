@@ -9,11 +9,11 @@ import TransactionConfirmSwapContent from './TransactionConfirmSwapContent'
 import ConfirmSwapModalContainer from './ConfirmSwapModalContainer'
 import useTranslation from '../../../../packages/localization/src/useTranslation'
 
-const PancakeRouterSlippageErrorMsg =
+const ArborRouterSlippageErrorMsg =
   'This transaction will not succeed either due to price movement or fee on transfer. Try increasing your slippage tolerance.'
 
 const SwapTransactionErrorContent = ({ onDismiss, message, openSettingModal }) => {
-  const isSlippagedErrorMsg = message?.includes(PancakeRouterSlippageErrorMsg)
+  const isSlippagedErrorMsg = message?.includes(ArborRouterSlippageErrorMsg)
 
   const handleErrorDismiss = useCallback(() => {
     onDismiss?.()

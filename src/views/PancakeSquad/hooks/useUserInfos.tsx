@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 import { getNftSaleAddress } from 'utils/addressHelpers'
-import { getPancakeSquadContract } from 'utils/contractHelpers'
+import { getArborSquadContract } from 'utils/contractHelpers'
 import { multicallv2 } from 'utils/multicall'
 import nftSaleAbi from 'config/abi/nftSale.json'
 
@@ -9,7 +9,7 @@ const useUserInfos = ({ account, refreshCounter, setCallback }) => {
     const fetchUserInfos = async () => {
       try {
         const nftSaleAddress = getNftSaleAddress()
-        const pancakeSquadContract = getPancakeSquadContract()
+        const pancakeSquadContract = getArborSquadContract()
 
         if (account) {
           const calls = [

@@ -3,7 +3,7 @@ import { NftToken, ApiResponseCollectionTokens } from 'state/nftMarket/types'
 import {
   getNftsMarketData,
   getMetadataWithFallback,
-  getPancakeBunniesAttributesField,
+  getArborBunniesAttributesField,
   combineApiAndSgResponseToNftToken,
   getNftsUpdatedMarketData,
 } from 'state/nftMarket/helpers'
@@ -35,13 +35,13 @@ const fetchMarketDataNfts = async (
 
   const moreTokensWithRequestedBunnyId = nftsMarket.map((marketData) => {
     const apiMetadata = getMetadataWithFallback(nftMetadata.data, marketData.otherId)
-    const attributes = getPancakeBunniesAttributesField(marketData.otherId)
+    const attributes = getArborBunniesAttributesField(marketData.otherId)
     return combineApiAndSgResponseToNftToken(apiMetadata, marketData, attributes)
   })
   return { newNfts: moreTokensWithRequestedBunnyId, isPageLast: moreTokensWithRequestedBunnyId.length < itemsPerPage }
 }
 
-export const usePancakeBunnyOnSaleNfts = (
+export const useArborBunnyOnSaleNfts = (
   bunnyId: string,
   nftMetadata: ApiResponseCollectionTokens,
   itemsPerPage: number,

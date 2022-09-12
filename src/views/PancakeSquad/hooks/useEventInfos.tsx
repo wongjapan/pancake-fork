@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 import { getNftSaleAddress } from 'utils/addressHelpers'
-import { getPancakeSquadContract } from 'utils/contractHelpers'
+import { getArborSquadContract } from 'utils/contractHelpers'
 import { multicallv2 } from 'utils/multicall'
 import { BigNumber } from '@ethersproject/bignumber'
 import nftSaleAbi from 'config/abi/nftSale.json'
@@ -10,7 +10,7 @@ const useEventInfos = ({ refreshCounter, setCallback }) => {
     const fetchEventInfos = async () => {
       try {
         const nftSaleAddress = getNftSaleAddress()
-        const pancakeSquadContract = getPancakeSquadContract()
+        const pancakeSquadContract = getArborSquadContract()
 
         const calls = [
           'maxSupply',

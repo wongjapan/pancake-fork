@@ -9,8 +9,8 @@ import { CAKE } from '@arborswap/tokens'
 // Addresses
 import {
   getAddress,
-  getPancakeProfileAddress,
-  getPancakeBunniesAddress,
+  getArborProfileAddress,
+  getArborBunniesAddress,
   getBunnyFactoryAddress,
   getBunnySpecialAddress,
   getLotteryV2Address,
@@ -29,7 +29,7 @@ import {
   getAnniversaryAchievement,
   getNftMarketAddress,
   getNftSaleAddress,
-  getPancakeSquadAddress,
+  getArborSquadAddress,
   getTradingCompetitionAddressFanToken,
   getTradingCompetitionAddressMobox,
   getTradingCompetitionAddressMoD,
@@ -105,8 +105,8 @@ import type {
   Erc721,
   Cake,
   BunnyFactory,
-  PancakeBunnies,
-  PancakeProfile,
+  ArborBunnies,
+  ArborProfile,
   LotteryV2,
   Masterchef,
   MasterchefV1,
@@ -124,7 +124,7 @@ import type {
   BunnySpecialLottery,
   NftMarket,
   NftSale,
-  PancakeSquad,
+  ArborSquad,
   Erc721collection,
   PointCenterIfo,
   CakeVaultV2,
@@ -196,10 +196,10 @@ export const getCakeContract = (signer?: Signer | Provider, chainId?: number) =>
   }) as Cake
 }
 export const getProfileContract = (signer?: Signer | Provider) => {
-  return getContract({ abi: profileABI, address: getPancakeProfileAddress(), signer }) as PancakeProfile
+  return getContract({ abi: profileABI, address: getArborProfileAddress(), signer }) as ArborProfile
 }
-export const getPancakeBunniesContract = (signer?: Signer | Provider) => {
-  return getContract({ abi: pancakeBunniesAbi, address: getPancakeBunniesAddress(), signer }) as PancakeBunnies
+export const getArborBunniesContract = (signer?: Signer | Provider) => {
+  return getContract({ abi: pancakeBunniesAbi, address: getArborBunniesAddress(), signer }) as ArborBunnies
 }
 export const getBunnyFactoryContract = (signer?: Signer | Provider) => {
   return getContract({ abi: bunnyFactoryAbi, address: getBunnyFactoryAddress(), signer }) as BunnyFactory
@@ -324,8 +324,8 @@ export const getNftMarketContract = (signer?: Signer | Provider) => {
 export const getNftSaleContract = (signer?: Signer | Provider) => {
   return getContract({ abi: nftSaleAbi, address: getNftSaleAddress(), signer }) as NftSale
 }
-export const getPancakeSquadContract = (signer?: Signer | Provider) => {
-  return getContract({ abi: pancakeSquadAbi, address: getPancakeSquadAddress(), signer }) as PancakeSquad
+export const getArborSquadContract = (signer?: Signer | Provider) => {
+  return getContract({ abi: pancakeSquadAbi, address: getArborSquadAddress(), signer }) as ArborSquad
 }
 export const getErc721CollectionContract = (signer?: Signer | Provider, address?: string) => {
   return getContract({ abi: erc721CollectionAbi, address, signer }) as Erc721collection

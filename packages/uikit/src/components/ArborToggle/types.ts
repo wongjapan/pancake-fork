@@ -1,6 +1,6 @@
 import { InputHTMLAttributes } from "react";
 
-export type PancakeToggleTheme = {
+export type ArborToggleTheme = {
   handleBackground: string;
   handleShadow: string;
 };
@@ -13,7 +13,7 @@ export const scales = {
 
 export type Scales = typeof scales[keyof typeof scales];
 
-export interface PancakeToggleProps extends InputHTMLAttributes<HTMLInputElement> {
+export interface ArborToggleProps extends InputHTMLAttributes<HTMLInputElement> {
   scale?: Scales;
   checked?: boolean;
 }

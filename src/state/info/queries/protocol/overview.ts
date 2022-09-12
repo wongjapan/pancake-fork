@@ -7,14 +7,14 @@ import { getDeltaTimestamps } from 'utils/getDeltaTimestamps'
 import { useBlocksFromTimestamps } from 'views/Info/hooks/useBlocksFromTimestamps'
 import { getPercentChange } from 'views/Info/utils/infoDataHelpers'
 
-interface PancakeFactory {
+interface ArborFactory {
   totalTransactions: string
   totalVolumeUSD: string
   totalLiquidityUSD: string
 }
 
 interface OverviewResponse {
-  pancakeFactories: PancakeFactory[]
+  pancakeFactories: ArborFactory[]
 }
 
 /**
@@ -39,12 +39,12 @@ const getOverviewData = async (block?: number): Promise<{ data?: OverviewRespons
   }
 }
 
-const formatPancakeFactoryResponse = (rawPancakeFactory?: PancakeFactory) => {
-  if (rawPancakeFactory) {
+const formatArborFactoryResponse = (rawArborFactory?: ArborFactory) => {
+  if (rawArborFactory) {
     return {
-      totalTransactions: parseFloat(rawPancakeFactory.totalTransactions),
-      totalVolumeUSD: parseFloat(rawPancakeFactory.totalVolumeUSD),
-      totalLiquidityUSD: parseFloat(rawPancakeFactory.totalLiquidityUSD),
+      totalTransactions: parseFloat(rawArborFactory.totalTransactions),
+      totalVolumeUSD: parseFloat(rawArborFactory.totalVolumeUSD),
+      totalLiquidityUSD: parseFloat(rawArborFactory.totalLiquidityUSD),
     }
   }
   return null
@@ -71,9 +71,9 @@ const useFetchProtocolData = (): ProtocolFetchState => {
         getOverviewData(block48?.number ?? undefined),
       ])
       const anyError = error || error24 || error48
-      const overviewData = formatPancakeFactoryResponse(data?.pancakeFactories?.[0])
-      const overviewData24 = formatPancakeFactoryResponse(data24?.pancakeFactories?.[0])
-      const overviewData48 = formatPancakeFactoryResponse(data48?.pancakeFactories?.[0])
+      const overviewData = formatArborFactoryResponse(data?.pancakeFactories?.[0])
+      const overviewData24 = formatArborFactoryResponse(data24?.pancakeFactories?.[0])
+      const overviewData48 = formatArborFactoryResponse(data48?.pancakeFactories?.[0])
       const allDataAvailable = overviewData && overviewData24 && overviewData48
       if (anyError || !allDataAvailable) {
         setFetchState({

@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react'
 import { ChartEntry } from 'state/info/types'
 import { infoClient } from 'utils/graphql'
 import { fetchChartData, mapDayData } from '../helpers'
-import { PancakeDayDatasResponse } from '../types'
+import { ArborDayDatasResponse } from '../types'
 
 /**
  * Data for displaying Liquidity and Volume charts on Overview page
@@ -22,7 +22,7 @@ const PANCAKE_DAY_DATAS = gql`
 
 const getOverviewChartData = async (skip: number): Promise<{ data?: ChartEntry[]; error: boolean }> => {
   try {
-    const { pancakeDayDatas } = await infoClient.request<PancakeDayDatasResponse>(PANCAKE_DAY_DATAS, {
+    const { pancakeDayDatas } = await infoClient.request<ArborDayDatasResponse>(PANCAKE_DAY_DATAS, {
       startTime: PCS_V2_START,
       skip,
     })

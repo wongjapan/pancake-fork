@@ -1,9 +1,9 @@
 import { createGlobalStyle } from 'styled-components'
-import { PancakeTheme } from '@arborswap/uikit'
+import { ArborTheme } from '@arborswap/uikit'
 
 declare module 'styled-components' {
   /* eslint-disable @typescript-eslint/no-empty-interface */
-  export interface DefaultTheme extends PancakeTheme {}
+  export interface DefaultTheme extends ArborTheme {}
 }
 
 const GlobalStyle = createGlobalStyle`

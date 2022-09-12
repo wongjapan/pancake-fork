@@ -1,3 +1,3 @@
-import PancakeSquad from '../views/PancakeSquad'
+import ArborSquad from '../views/ArborSquad'
 
-export default PancakeSquad
+export default ArborSquad

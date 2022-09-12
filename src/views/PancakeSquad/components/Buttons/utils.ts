@@ -1,5 +1,5 @@
 import { ContextApi } from '@arborswap/localization'
-import { SaleStatusEnum } from 'views/PancakeSquad/types'
+import { SaleStatusEnum } from 'views/ArborSquad/types'
 import { BuyButtonsEnum } from './types'
 
 type getBuyButtonTextProps = {

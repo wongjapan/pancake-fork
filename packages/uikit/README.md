@@ -1,21 +1,20 @@
-# 🥞 Pancake UIkit
+# 🥞 Arbor UIkit
 
 [![Version](https://img.shields.io/npm/v/@arborswap/uikit)](https://www.npmjs.com/package/@arborswap/uikit) [![Size](https://img.shields.io/bundlephobia/min/@arborswap/uikit)](https://www.npmjs.com/package/@arborswap/uikit)
 
-Pancake UIkit is a set of React components and hooks used to build pages on Pancake's apps. It also contains a theme file for dark and light mode.
+Arbor UIkit is a set of React components and hooks used to build pages on Arbor's apps. It also contains a theme file for dark and light mode.
 
 ## Install
 
 `yarn add @arborswap/uikit`
 
-***Note**: In case you want to use the older version of the Pancake UIkit, you should install @arborswap-libs/uikit, instead, but we recommend using the latest version of the UIkit.*
-
+**\*Note**: In case you want to use the older version of the Arbor UIkit, you should install @arborswap-libs/uikit, instead, but we recommend using the latest version of the UIkit.\*
 
 ## Setup
 
 ### Providers
 
-Before using Pancake UIkit, you need to provide the theme file to uikit provider.
+Before using Arbor UIkit, you need to provide the theme file to uikit provider.
 
 ```
 import { UIKitProvider, light, dark } from '@arborswap/uikit'

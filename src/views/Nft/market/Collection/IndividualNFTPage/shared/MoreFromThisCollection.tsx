@@ -14,7 +14,7 @@ import { NftToken } from 'state/nftMarket/types'
 import Trans from 'components/Trans'
 import { pancakeBunniesAddress } from '../../../constants'
 import { CollectibleLinkCard } from '../../../components/CollectibleCard'
-import useAllPancakeBunnyNfts from '../../../hooks/useAllPancakeBunnyNfts'
+import useAllArborBunnyNfts from '../../../hooks/useAllArborBunnyNfts'
 
 const INITIAL_SLIDE = 4
 
@@ -49,7 +49,7 @@ const MoreFromThisCollection: React.FC<React.PropsWithChildren<MoreFromThisColle
   const [swiperRef, setSwiperRef] = useState<SwiperCore>(null)
   const [activeIndex, setActiveIndex] = useState(1)
   const { isMobile, isMd, isLg } = useMatchBreakpoints()
-  const allPancakeBunnyNfts = useAllPancakeBunnyNfts(collectionAddress)
+  const allArborBunnyNfts = useAllArborBunnyNfts(collectionAddress)
 
   const isPBCollection = isAddress(collectionAddress) === pancakeBunniesAddress
   const checkSummedCollectionAddress = isAddress(collectionAddress) || collectionAddress
@@ -93,11 +93,11 @@ const MoreFromThisCollection: React.FC<React.PropsWithChildren<MoreFromThisColle
 
   let nftsToShow = useMemo(() => {
     return shuffle(
-      allPancakeBunnyNfts
-        ? allPancakeBunnyNfts.filter((nft) => nft.name !== currentTokenName)
+      allArborBunnyNfts
+        ? allArborBunnyNfts.filter((nft) => nft.name !== currentTokenName)
         : collectionNfts?.filter((nft) => nft.name !== currentTokenName && nft.marketData?.isTradable),
     )
-  }, [allPancakeBunnyNfts, collectionNfts, currentTokenName])
+  }, [allArborBunnyNfts, collectionNfts, currentTokenName])
 
   if (!nftsToShow || nftsToShow.length === 0) {
     return null
@@ -117,7 +117,7 @@ const MoreFromThisCollection: React.FC<React.PropsWithChildren<MoreFromThisColle
   }
 
   if (isPBCollection) {
-    // PancakeBunnies should display 1 card per bunny id
+    // ArborBunnies should display 1 card per bunny id
     nftsToShow = nftsToShow.reduce((nftArray, current) => {
       const bunnyId = current.attributes[0].value
       if (!nftArray.find((nft) => nft.attributes[0].value === bunnyId)) {

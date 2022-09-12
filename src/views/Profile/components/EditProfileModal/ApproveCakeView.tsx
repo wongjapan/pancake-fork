@@ -3,7 +3,7 @@ import { useTranslation } from '@arborswap/localization'
 import { useCake } from 'hooks/useContract'
 import useCatchTxError from 'hooks/useCatchTxError'
 import { useProfile } from 'state/profile/hooks'
-import { getPancakeProfileAddress } from 'utils/addressHelpers'
+import { getArborProfileAddress } from 'utils/addressHelpers'
 import { formatBigNumber } from 'utils/formatBalance'
 import useGetProfileCosts from 'views/Profile/hooks/useGetProfileCosts'
 import { UseEditProfileResponse } from './reducer'
@@ -29,7 +29,7 @@ const ApproveCakePage: React.FC<React.PropsWithChildren<ApproveCakePageProps>> =
 
   const handleApprove = async () => {
     const receipt = await fetchWithCatchTxError(() => {
-      return cakeContract.approve(getPancakeProfileAddress(), cost.mul(2).toString())
+      return cakeContract.approve(getArborProfileAddress(), cost.mul(2).toString())
     })
     if (receipt?.status) {
       goToChange()

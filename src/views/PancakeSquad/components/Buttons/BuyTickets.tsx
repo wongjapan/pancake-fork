@@ -10,7 +10,7 @@ import { useCake, useNftSaleContract } from 'hooks/useContract'
 import { useContext, useEffect, useState } from 'react'
 import { DefaultTheme } from 'styled-components'
 import { requiresApproval } from 'utils/requiresApproval'
-import { PancakeSquadContext } from 'views/PancakeSquad/context'
+import { ArborSquadContext } from 'views/ArborSquad/context'
 import { SaleStatusEnum, UserStatusEnum } from '../../types'
 import ReadyText from '../Header/ReadyText'
 import BuyTicketsModal from '../Modals/BuyTickets'
@@ -57,7 +57,7 @@ const BuyTicketsButtons: React.FC<React.PropsWithChildren<BuyTicketsProps>> = ({
   const nftSaleContract = useNftSaleContract()
   const { toastSuccess } = useToast()
   const { reader: cakeContractReader, signer: cakeContractApprover } = useCake()
-  const { isUserEnabled, setIsUserEnabled } = useContext(PancakeSquadContext)
+  const { isUserEnabled, setIsUserEnabled } = useContext(ArborSquadContext)
 
   const canBuySaleTicket =
     saleStatus === SaleStatusEnum.Sale && numberTicketsOfUser - numberTicketsUsedForGen0 < maxPerAddress

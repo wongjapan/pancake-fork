@@ -14,7 +14,7 @@ import { SortType } from '../../types'
 import { ClickableRow, NftName, StyledSortButton, TableWrapper } from './styles'
 import { useGetCollectionDistributionPB } from '../../hooks/useGetCollectionDistribution'
 
-interface PancakeBunniesTraitsProps {
+interface ArborBunniesTraitsProps {
   collectionAddress: string
 }
 
@@ -36,7 +36,7 @@ const LowestPriceCell: React.FC<React.PropsWithChildren<{ bunnyId: string }>> = 
   return <BNBAmountLabel justifyContent="flex-end" amount={lowestPrice} width="100px" />
 }
 
-const PancakeBunniesTraits: React.FC<React.PropsWithChildren<PancakeBunniesTraitsProps>> = ({ collectionAddress }) => {
+const ArborBunniesTraits: React.FC<React.PropsWithChildren<ArborBunniesTraitsProps>> = ({ collectionAddress }) => {
   const [raritySort, setRaritySort] = useState<SortType>('asc')
   const collection = useGetCollection(collectionAddress)
   const totalBunnyCount = Number(collection?.totalSupply)
@@ -143,4 +143,4 @@ const PancakeBunniesTraits: React.FC<React.PropsWithChildren<PancakeBunniesTrait
   )
 }
 
-export default PancakeBunniesTraits
+export default ArborBunniesTraits

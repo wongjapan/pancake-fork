@@ -44,8 +44,8 @@ import {
   getMasterchefV1Contract,
   getNftMarketContract,
   getNftSaleContract,
-  getPancakeBunniesContract,
-  getPancakeSquadContract,
+  getArborBunniesContract,
+  getArborSquadContract,
   getPointCenterIfoContract,
   getPotteryDrawContract,
   getPotteryVaultContract,
@@ -65,12 +65,12 @@ import { Contract } from '@ethersproject/contracts'
 import { WNATIVE } from '@arborswap/sdk'
 import { ERC20_BYTES32_ABI } from '../config/abi/erc20'
 import ERC20_ABI from '../config/abi/erc20.json'
-import IPancakePairABI from '../config/abi/IPancakePair.json'
+import IArborPairABI from '../config/abi/IArborPair.json'
 import multiCallAbi from '../config/abi/Multicall.json'
 import WETH_ABI from '../config/abi/weth.json'
 import { getContract } from '../utils'
 
-import { IPancakePair } from '../config/abi/types/IPancakePair'
+import { IArborPair } from '../config/abi/types/IArborPair'
 import { VaultKey } from '../state/types'
 import { useActiveChainId } from './useActiveChainId'
 
@@ -122,9 +122,9 @@ export const useBunnyFactory = () => {
   return useMemo(() => getBunnyFactoryContract(signer), [signer])
 }
 
-export const usePancakeBunnies = () => {
+export const useArborBunnies = () => {
   const { data: signer } = useSigner()
-  return useMemo(() => getPancakeBunniesContract(signer), [signer])
+  return useMemo(() => getArborBunniesContract(signer), [signer])
 }
 
 export const useProfileContract = (withSignerIfPossible = true) => {
@@ -258,9 +258,9 @@ export const useNftSaleContract = () => {
   return useMemo(() => getNftSaleContract(signer), [signer])
 }
 
-export const usePancakeSquadContract = () => {
+export const useArborSquadContract = () => {
   const { data: signer } = useSigner()
-  return useMemo(() => getPancakeSquadContract(signer), [signer])
+  return useMemo(() => getArborSquadContract(signer), [signer])
 }
 
 export const useFarmAuctionContract = (withSignerIfPossible = true) => {
@@ -323,8 +323,8 @@ export function useBytes32TokenContract(tokenAddress?: string, withSignerIfPossi
   return useContract<Erc20Bytes32>(tokenAddress, ERC20_BYTES32_ABI, withSignerIfPossible)
 }
 
-export function usePairContract(pairAddress?: string, withSignerIfPossible?: boolean): IPancakePair | null {
-  return useContract(pairAddress, IPancakePairABI, withSignerIfPossible)
+export function usePairContract(pairAddress?: string, withSignerIfPossible?: boolean): IArborPair | null {
+  return useContract(pairAddress, IArborPairABI, withSignerIfPossible)
 }
 
 export function useMulticallContract() {

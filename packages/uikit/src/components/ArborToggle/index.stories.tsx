@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import PancakeToggle from "./PancakeToggle";
+import ArborToggle from "./ArborToggle";
 
 export default {
-  title: "Components/PancakeToggle",
-  component: PancakeToggle,
+  title: "Components/ArborToggle",
+  component: ArborToggle,
 };
 
 export const Default: React.FC<React.PropsWithChildren> = () => {
@@ -14,13 +14,13 @@ export const Default: React.FC<React.PropsWithChildren> = () => {
   return (
     <>
       <div style={{ marginBottom: "32px" }}>
-        <PancakeToggle checked={isChecked} onChange={toggle} />
+        <ArborToggle checked={isChecked} onChange={toggle} />
       </div>
       <div style={{ marginBottom: "32px" }}>
-        <PancakeToggle checked={isChecked} onChange={toggle} scale="md" />
+        <ArborToggle checked={isChecked} onChange={toggle} scale="md" />
       </div>
       <div>
-        <PancakeToggle checked={isChecked} onChange={toggle} scale="sm" />
+        <ArborToggle checked={isChecked} onChange={toggle} scale="sm" />
       </div>
     </>
   );

@@ -1,6 +1,6 @@
 import { Box, Button, Flex, Text } from '@arborswap/uikit'
 import { useTranslation } from '@arborswap/localization'
-import { LandingBodyWrapper, StyledWaveContainer } from 'views/PancakeSquad/styles'
+import { LandingBodyWrapper, StyledWaveContainer } from 'views/ArborSquad/styles'
 import { useTheme } from 'styled-components'
 import artistConfigBuilder from './config'
 import { StyledArtistBioContainer, StyledArtistSectionContainer, StyledSocialButton } from './styles'

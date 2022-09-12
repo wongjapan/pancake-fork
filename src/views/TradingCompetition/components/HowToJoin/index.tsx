@@ -23,9 +23,9 @@ const HowToJoin = () => {
         <Text fontSize="14px" color="textSubtle">
           {t('Set up your')}{' '}
           {account ? (
-            <StyledLink href={`/profile/${account.toLowerCase()}`}>{t('Pancake Profile')}</StyledLink>
+            <StyledLink href={`/profile/${account.toLowerCase()}`}>{t('Arbor Profile')}</StyledLink>
           ) : (
-            t('Pancake Profile')
+            t('Arbor Profile')
           )}
           {', '}
           {t('then register for the competition by clicking “I WANT TO BATTLE” button above.')}

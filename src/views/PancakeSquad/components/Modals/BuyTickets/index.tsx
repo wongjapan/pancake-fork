@@ -19,7 +19,7 @@ import { useTranslation } from '@arborswap/localization'
 import useTheme from 'hooks/useTheme'
 import { useState } from 'react'
 import { formatBigNumber } from 'utils/formatBalance'
-import { SaleStatusEnum } from 'views/PancakeSquad/types'
+import { SaleStatusEnum } from 'views/ArborSquad/types'
 
 interface BuyTicketsModalProps extends ModalProps {
   buyTicketCallBack: ({ ticketsNumber }: { ticketsNumber: number }) => void

@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import { Box, Button, Card, CardBody, Flex, Step, Stepper, Text } from '@arborswap/uikit'
 import { useTranslation } from '@arborswap/localization'
-import { StyledWaveContainer, LandingBodyWrapper } from 'views/PancakeSquad/styles'
+import { StyledWaveContainer, LandingBodyWrapper } from 'views/ArborSquad/styles'
 import useTheme from 'hooks/useTheme'
 import { useGetCakeBalance } from 'hooks/useTokenBalance'
 import EventStepsBottomWave from '../../assets/EventStepsBottomWave'

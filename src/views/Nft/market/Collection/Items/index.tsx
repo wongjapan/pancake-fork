@@ -6,7 +6,7 @@ import { useTranslation } from '@arborswap/localization'
 import Select, { OptionProps } from 'components/Select/Select'
 import Container from 'components/Layout/Container'
 import { pancakeBunniesAddress } from '../../constants'
-import PancakeBunniesCollectionNfts from './PancakeBunniesCollectionNfts'
+import ArborBunniesCollectionNfts from './ArborBunniesCollectionNfts'
 import CollectionWrapper from './CollectionWrapper'
 
 const Items = () => {
@@ -37,7 +37,7 @@ const Items = () => {
               <Select options={sortByItems} onOptionChange={handleChange} />
             </Box>
           </Flex>
-          <PancakeBunniesCollectionNfts address={collection?.address} sortBy={sortBy} />
+          <ArborBunniesCollectionNfts address={collection?.address} sortBy={sortBy} />
         </Container>
       ) : (
         <CollectionWrapper collection={collection} />

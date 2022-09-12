@@ -1,6 +1,6 @@
 import { useRouter } from 'next/router'
 import Container from 'components/Layout/Container'
-import PancakeBunniesTraits from './PancakeBunniesTraits'
+import ArborBunniesTraits from './ArborBunniesTraits'
 import { pancakeBunniesAddress } from '../../constants'
 import CollectionTraits from './CollectionTraits'
 
@@ -11,7 +11,7 @@ const Traits = () => {
     <>
       <Container py="40px">
         {collectionAddress === pancakeBunniesAddress ? (
-          <PancakeBunniesTraits collectionAddress={collectionAddress} />
+          <ArborBunniesTraits collectionAddress={collectionAddress} />
         ) : (
           <CollectionTraits collectionAddress={collectionAddress} />
         )}

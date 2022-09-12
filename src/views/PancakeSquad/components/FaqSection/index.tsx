@@ -1,6 +1,6 @@
 import { Text, Heading, Card, CardHeader, CardBody } from '@arborswap/uikit'
 import { useTranslation } from '@arborswap/localization'
-import { LandingBodyWrapper } from 'views/PancakeSquad/styles'
+import { LandingBodyWrapper } from 'views/ArborSquad/styles'
 import FoldableText from 'components/FoldableSection/FoldableText'
 import configBuilder from './config'
 import { StyledFaqSection, StyledDetailsWrapper } from './styles'

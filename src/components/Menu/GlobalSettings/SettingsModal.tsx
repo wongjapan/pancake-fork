@@ -1,6 +1,6 @@
 import { useState, useCallback } from 'react'
 import styled from 'styled-components'
-import { Text, PancakeToggle, Toggle, Flex, Modal, InjectedModalProps, ThemeSwitcher, Box } from '@arborswap/uikit'
+import { Text, ArborToggle, Toggle, Flex, Modal, InjectedModalProps, ThemeSwitcher, Box } from '@arborswap/uikit'
 import {
   useAudioModeManager,
   useExpertModeManager,
@@ -214,7 +214,7 @@ const SettingsModal: React.FC<React.PropsWithChildren<InjectedModalProps>> = ({ 
                   ml="4px"
                 />
               </Flex>
-              <PancakeToggle checked={audioPlay} onChange={toggleSetAudioMode} scale="md" />
+              <ArborToggle checked={audioPlay} onChange={toggleSetAudioMode} scale="md" />
             </Flex>
           </>
         )}

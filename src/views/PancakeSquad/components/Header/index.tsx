@@ -3,8 +3,8 @@ import { Box, Flex, lightColors, Spinner, Text, Timeline } from '@arborswap/uiki
 import { useTranslation } from '@arborswap/localization'
 import { useGetCakeBalance } from 'hooks/useTokenBalance'
 import useTheme from 'hooks/useTheme'
-import { StyledWaveContainer } from 'views/PancakeSquad/styles'
-import { UserStatusEnum } from 'views/PancakeSquad/types'
+import { StyledWaveContainer } from 'views/ArborSquad/styles'
+import { UserStatusEnum } from 'views/ArborSquad/types'
 import ConnectWalletButton from 'components/ConnectWalletButton'
 import HeaderBottomWave from '../../assets/HeaderBottomWave'
 import nftSaleConfigBuilder from '../../config'
@@ -18,12 +18,12 @@ import {
   StyledSquadHeaderContainer,
   StyledSquadTitle,
 } from './styles'
-import { PancakeSquadHeaderType } from './types'
+import { ArborSquadHeaderType } from './types'
 
 const DEFAULT_CAKE_COST = 15
 const DEFAULT_MAX_TICKETS = 10
 
-const PancakeSquadHeader: React.FC<React.PropsWithChildren<PancakeSquadHeaderType>> = ({
+const ArborSquadHeader: React.FC<React.PropsWithChildren<ArborSquadHeaderType>> = ({
   userInfos,
   eventInfos,
   account,
@@ -67,7 +67,7 @@ const PancakeSquadHeader: React.FC<React.PropsWithChildren<PancakeSquadHeaderTyp
         </Link>
       </Flex>
       <StyledSquadTitle my="32px" color={lightColors.invertedContrast} bold textAlign="center">
-        {t('Pancake Squad')}
+        {t('Arbor Squad')}
       </StyledSquadTitle>
       <Text color={lightColors.warning} textAlign="center" bold>
         {`${t('Presale:')} 04:00 UTC, Oct. 7`}
@@ -84,7 +84,7 @@ const PancakeSquadHeader: React.FC<React.PropsWithChildren<PancakeSquadHeaderTyp
         {t('Max per wallet: %maxPerWallet%', { maxPerWallet: DEFAULT_MAX_TICKETS })}
       </Text>
       <Text color={lightColors.invertedContrast} textAlign="center">
-        {t('PancakeSwap’s first official generative NFT collection.')}
+        {t('ArborSwap’s first official generative NFT collection.')}
       </Text>
       <Text color={lightColors.invertedContrast} mb={!displayEventBlock ? '80px' : '32px'} textAlign="center">
         {t('Join the squad.')}
@@ -163,4 +163,4 @@ const PancakeSquadHeader: React.FC<React.PropsWithChildren<PancakeSquadHeaderTyp
   )
 }
 
-export default PancakeSquadHeader
+export default ArborSquadHeader

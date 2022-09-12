@@ -3,8 +3,8 @@ import { Flex, useTooltip } from '@arborswap/uikit'
 import { useTranslation } from '@arborswap/localization'
 import CountdownCircle from './CountdownCircle'
 
-const UpdateIndicator: React.FC<React.PropsWithChildren<{ isFetchingPancakeBunnies: boolean }>> = ({
-  isFetchingPancakeBunnies,
+const UpdateIndicator: React.FC<React.PropsWithChildren<{ isFetchingArborBunnies: boolean }>> = ({
+  isFetchingArborBunnies,
 }) => {
   const { t } = useTranslation()
   const [secondsRemaining, setSecondsRemaining] = useState(10)
@@ -23,14 +23,14 @@ const UpdateIndicator: React.FC<React.PropsWithChildren<{ isFetchingPancakeBunni
   }, [])
 
   useEffect(() => {
-    if (!isFetchingPancakeBunnies) {
+    if (!isFetchingArborBunnies) {
       setSecondsRemaining(10)
     }
-  }, [isFetchingPancakeBunnies])
+  }, [isFetchingArborBunnies])
 
   return (
     <Flex justifyContent="center" ref={targetRef}>
-      <CountdownCircle secondsRemaining={secondsRemaining} isUpdating={isFetchingPancakeBunnies} />
+      <CountdownCircle secondsRemaining={secondsRemaining} isUpdating={isFetchingArborBunnies} />
       {tooltipVisible && tooltip}
     </Flex>
   )

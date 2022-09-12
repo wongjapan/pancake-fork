@@ -1,11 +1,11 @@
 import React from "react";
 import { renderWithProvider } from "../../testHelpers";
-import PancakeToggle from "../../components/PancakeToggle/PancakeToggle";
+import ArborToggle from "../../components/ArborToggle/ArborToggle";
 
 const handleChange = jest.fn();
 
 it("renders correctly", () => {
-  const { asFragment } = renderWithProvider(<PancakeToggle checked onChange={handleChange} scale="md" />);
+  const { asFragment } = renderWithProvider(<ArborToggle checked onChange={handleChange} scale="md" />);
   expect(asFragment()).toMatchInlineSnapshot(`
     <DocumentFragment>
       .c0 {
@@ -201,7 +201,7 @@ it("renders correctly", () => {
 });
 
 it("renders correctly scale sm", () => {
-  const { asFragment } = renderWithProvider(<PancakeToggle checked onChange={handleChange} scale="sm" />);
+  const { asFragment } = renderWithProvider(<ArborToggle checked onChange={handleChange} scale="sm" />);
   expect(asFragment()).toMatchInlineSnapshot(`
     <DocumentFragment>
       .c0 {

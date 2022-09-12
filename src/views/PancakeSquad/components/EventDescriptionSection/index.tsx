@@ -1,6 +1,6 @@
 import { Box, Button, Flex, Link, Text } from '@arborswap/uikit'
 import { useTranslation } from '@arborswap/localization'
-import { LandingBodyWrapper } from 'views/PancakeSquad/styles'
+import { LandingBodyWrapper } from 'views/ArborSquad/styles'
 import eventDescriptionConfigBuilder from './config'
 import {
   StyledBodyTextElement,

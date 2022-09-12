@@ -1538,7 +1538,7 @@ exports[`renders correctly 1`] = `
             class="c3"
           >
             <a
-              aria-label="Pancake home page"
+              aria-label="Arbor home page"
               class="c4"
               href="/"
             >
@@ -2583,7 +2583,7 @@ exports[`renders correctly 1`] = `
                     class="c29 c64"
                     color="textSubtle"
                     font-size="16px"
-                    href="https://t.me/PancakeSwapIndonesia"
+                    href="https://t.me/ArborSwapIndonesia"
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2594,7 +2594,7 @@ exports[`renders correctly 1`] = `
                     class="c29 c64"
                     color="textSubtle"
                     font-size="16px"
-                    href="https://t.me/PancakeSwap_CN"
+                    href="https://t.me/ArborSwap_CN"
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2605,7 +2605,7 @@ exports[`renders correctly 1`] = `
                     class="c29 c64"
                     color="textSubtle"
                     font-size="16px"
-                    href="https://t.me/PancakeSwapVN"
+                    href="https://t.me/ArborSwapVN"
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2649,7 +2649,7 @@ exports[`renders correctly 1`] = `
                     class="c29 c64"
                     color="textSubtle"
                     font-size="16px"
-                    href="https://t.me/PancakeSwapPortuguese"
+                    href="https://t.me/ArborSwapPortuguese"
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2660,7 +2660,7 @@ exports[`renders correctly 1`] = `
                     class="c29 c64"
                     color="textSubtle"
                     font-size="16px"
-                    href="https://t.me/PancakeswapEs"
+                    href="https://t.me/ArborswapEs"
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2693,7 +2693,7 @@ exports[`renders correctly 1`] = `
                     class="c29 c64"
                     color="textSubtle"
                     font-size="16px"
-                    href="https://t.me/PancakeSwap_DE"
+                    href="https://t.me/ArborSwap_DE"
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2704,7 +2704,7 @@ exports[`renders correctly 1`] = `
                     class="c29 c64"
                     color="textSubtle"
                     font-size="16px"
-                    href="https://t.me/Pancakeswap_Ph"
+                    href="https://t.me/Arborswap_Ph"
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2715,7 +2715,7 @@ exports[`renders correctly 1`] = `
                     class="c29 c64"
                     color="textSubtle"
                     font-size="16px"
-                    href="https://t.me/PancakeSwapGeorgia"
+                    href="https://t.me/ArborSwapGeorgia"
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2726,7 +2726,7 @@ exports[`renders correctly 1`] = `
                     class="c29 c64"
                     color="textSubtle"
                     font-size="16px"
-                    href="https://t.me/PancakeSwapINDIA"
+                    href="https://t.me/ArborSwapINDIA"
                     rel="noreferrer noopener"
                     target="_blank"
                   >
@@ -2737,7 +2737,7 @@ exports[`renders correctly 1`] = `
                     class="c29 c64"
                     color="textSubtle"
                     font-size="16px"
-                    href="https://t.me/PancakeSwapAnn"
+                    href="https://t.me/ArborSwapAnn"
                     rel="noreferrer noopener"
                     target="_blank"
                   >

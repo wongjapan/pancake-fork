@@ -1,6 +1,6 @@
 import { Currency, CurrencyAmount, Fraction, JSBI, Percent, Trade, TradeType } from '@arborswap/sdk'
-import IPancakeRouter02ABI from 'config/abi/IPancakeRouter02.json'
-import { IPancakeRouter02 } from 'config/abi/types/IPancakeRouter02'
+import IArborRouter02ABI from 'config/abi/IArborRouter02.json'
+import { IArborRouter02 } from 'config/abi/types/IArborRouter02'
 import {
   ALLOWED_PRICE_IMPACT_HIGH,
   ALLOWED_PRICE_IMPACT_LOW,
@@ -32,7 +32,7 @@ export function calculateSlippageAmount(value: CurrencyAmount<Currency>, slippag
 
 export function useRouterContract() {
   const { chainId } = useActiveChainId()
-  return useContract<IPancakeRouter02>(ROUTER_ADDRESS[chainId], IPancakeRouter02ABI, true)
+  return useContract<IArborRouter02>(ROUTER_ADDRESS[chainId], IArborRouter02ABI, true)
 }
 
 // computes price breakdown for the trade

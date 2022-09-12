@@ -4,7 +4,7 @@ import { Zero } from '@ethersproject/constants'
 import { useTranslation } from '@arborswap/localization'
 import { multicallv2 } from 'utils/multicall'
 import profileABI from 'config/abi/pancakeProfile.json'
-import { getPancakeProfileAddress } from 'utils/addressHelpers'
+import { getArborProfileAddress } from 'utils/addressHelpers'
 import { useToast } from '@arborswap/uikit'
 
 const useGetProfileCosts = () => {
@@ -21,7 +21,7 @@ const useGetProfileCosts = () => {
     const fetchCosts = async () => {
       try {
         const calls = ['numberCakeToReactivate', 'numberCakeToRegister', 'numberCakeToUpdate'].map((method) => ({
-          address: getPancakeProfileAddress(),
+          address: getArborProfileAddress(),
           name: method,
         }))
         const [[numberCakeToReactivate], [numberCakeToRegister], [numberCakeToUpdate]] = await multicallv2<

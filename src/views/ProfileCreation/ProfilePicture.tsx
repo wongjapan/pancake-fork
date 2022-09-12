@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { AutoRenewIcon, Button, Card, CardBody, Heading, Skeleton, Text, useToast } from '@arborswap/uikit'
 import { useWeb3React } from '@arborswap/wagmi'
 import { NextLinkFromReactRouter } from 'components/NextLink'
-import { getPancakeProfileAddress } from 'utils/addressHelpers'
+import { getArborProfileAddress } from 'utils/addressHelpers'
 import { getErc721Contract } from 'utils/contractHelpers'
 import { useTranslation } from '@arborswap/localization'
 import { useProfileContract } from 'hooks/useContract'
@@ -38,7 +38,7 @@ const ProfilePicture: React.FC = () => {
   const { nfts, isLoading: isUserNftLoading } = useNftsForAddress(account, profile, isProfileLoading)
 
   useEffect(() => {
-    const fetchUserPancakeCollectibles = async () => {
+    const fetchUserArborCollectibles = async () => {
       try {
         const nftsByCollection = Array.from(
           nfts.reduce((acc, value) => {
@@ -67,7 +67,7 @@ const ProfilePicture: React.FC = () => {
       }
     }
     if (!isUserNftLoading) {
-      fetchUserPancakeCollectibles()
+      fetchUserArborCollectibles()
     }
   }, [nfts, profileContract, isUserNftLoading])
 
@@ -80,7 +80,7 @@ const ProfilePicture: React.FC = () => {
   const handleApprove = async () => {
     const contract = getErc721Contract(selectedNft.collectionAddress, signer)
     const receipt = await fetchWithCatchTxError(() => {
-      return callWithGasPrice(contract, 'approve', [getPancakeProfileAddress(), selectedNft.tokenId])
+      return callWithGasPrice(contract, 'approve', [getArborProfileAddress(), selectedNft.tokenId])
     })
     if (receipt?.status) {
       toastSuccess(t('Enabled'), t('Please progress to the next step.'))
@@ -95,11 +95,11 @@ const ProfilePicture: React.FC = () => {
           {t('Oops!')}
         </Heading>
         <Text bold fontSize="20px" mb="24px">
-          {t('We couldn’t find any Pancake Collectibles in your wallet.')}
+          {t('We couldn’t find any Arbor Collectibles in your wallet.')}
         </Text>
         <Text as="p">
           {t(
-            'You need a Pancake Collectible to finish setting up your profile. If you sold or transferred your starter collectible to another wallet, you’ll need to get it back or acquire a new one somehow. You can’t make a new starter with this wallet address.',
+            'You need a Arbor Collectible to finish setting up your profile. If you sold or transferred your starter collectible to another wallet, you’ll need to get it back or acquire a new one somehow. You can’t make a new starter with this wallet address.',
           )}
         </Text>
       </>
@@ -123,7 +123,7 @@ const ProfilePicture: React.FC = () => {
             {t('Choose a profile picture from the eligible collectibles (NFT) in your wallet, shown below.')}
           </Text>
           <Text as="p" color="textSubtle" mb="24px">
-            {t('Only approved Pancake Collectibles can be used.')}
+            {t('Only approved Arbor Collectibles can be used.')}
             <Link to={`${nftsBaseUrl}/collections`} style={{ marginLeft: '4px' }}>
               {t('See the list >')}
             </Link>

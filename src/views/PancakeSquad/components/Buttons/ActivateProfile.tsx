@@ -1,7 +1,7 @@
 import { NextLinkFromReactRouter } from 'components/NextLink'
 import { Button } from '@arborswap/uikit'
 import { ContextApi } from '@arborswap/localization'
-import { UserStatusEnum } from 'views/PancakeSquad/types'
+import { UserStatusEnum } from 'views/ArborSquad/types'
 
 type ActivateProfileButtonProps = {
   t: ContextApi['t']

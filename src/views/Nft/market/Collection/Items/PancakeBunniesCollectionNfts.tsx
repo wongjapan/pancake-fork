@@ -1,7 +1,7 @@
 import { Grid } from '@arborswap/uikit'
 import orderBy from 'lodash/orderBy'
 import { CollectibleLinkCard } from '../../components/CollectibleCard'
-import useAllPancakeBunnyNfts from '../../hooks/useAllPancakeBunnyNfts'
+import useAllArborBunnyNfts from '../../hooks/useAllArborBunnyNfts'
 import GridPlaceholder from '../../components/GridPlaceholder'
 
 interface CollectionNftsProps {
@@ -9,14 +9,14 @@ interface CollectionNftsProps {
   sortBy?: string
 }
 
-const PancakeBunniesCollectionNfts: React.FC<React.PropsWithChildren<CollectionNftsProps>> = ({
+const ArborBunniesCollectionNfts: React.FC<React.PropsWithChildren<CollectionNftsProps>> = ({
   address,
   sortBy = 'updatedAt',
 }) => {
-  const allPancakeBunnyNfts = useAllPancakeBunnyNfts(address)
+  const allArborBunnyNfts = useAllArborBunnyNfts(address)
 
-  const sortedNfts = allPancakeBunnyNfts
-    ? orderBy(allPancakeBunnyNfts, (nft) => (nft.meta[sortBy] ? Number(nft?.meta[sortBy]) : 0), [
+  const sortedNfts = allArborBunnyNfts
+    ? orderBy(allArborBunnyNfts, (nft) => (nft.meta[sortBy] ? Number(nft?.meta[sortBy]) : 0), [
         sortBy === 'currentAskPrice' ? 'asc' : 'desc',
       ])
     : []
@@ -40,4 +40,4 @@ const PancakeBunniesCollectionNfts: React.FC<React.PropsWithChildren<CollectionN
   )
 }
 
-export default PancakeBunniesCollectionNfts
+export default ArborBunniesCollectionNfts

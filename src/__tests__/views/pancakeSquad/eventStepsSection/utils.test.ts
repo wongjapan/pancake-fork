@@ -1,7 +1,7 @@
-import { getStepperStatus } from 'views/PancakeSquad/components/EventStepsSection/utils'
-import { SaleStatusEnum } from 'views/PancakeSquad/types'
+import { getStepperStatus } from 'views/ArborSquad/components/EventStepsSection/utils'
+import { SaleStatusEnum } from 'views/ArborSquad/types'
 
-describe('PancakeSquad/EventStepsSection/utils/getStepperStatus', () => {
+describe('ArborSquad/EventStepsSection/utils/getStepperStatus', () => {
   it('Should return future text', () => {
     // Given
     const eventStatus = []

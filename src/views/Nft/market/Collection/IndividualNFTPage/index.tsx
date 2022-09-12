@@ -1,12 +1,12 @@
 import { useRouter } from 'next/router'
 import PageLoader from 'components/Loader/PageLoader'
 import { pancakeBunniesAddress } from '../../constants'
-import IndividualPancakeBunnyPage from './PancakeBunnyPage'
+import IndividualArborBunnyPage from './ArborBunnyPage'
 import IndividualNFTPage from './OneOfAKindNftPage'
 
 const IndividualNFTPageRouter = () => {
   const router = useRouter()
-  // For PancakeBunnies tokenId in url is really bunnyId
+  // For ArborBunnies tokenId in url is really bunnyId
   const { collectionAddress, tokenId } = router.query
 
   if (router.isFallback) {
@@ -15,7 +15,7 @@ const IndividualNFTPageRouter = () => {
 
   const isPBCollection = String(collectionAddress).toLowerCase() === pancakeBunniesAddress.toLowerCase()
   if (isPBCollection) {
-    return <IndividualPancakeBunnyPage bunnyId={String(tokenId)} />
+    return <IndividualArborBunnyPage bunnyId={String(tokenId)} />
   }
 
   return <IndividualNFTPage collectionAddress={String(collectionAddress)} tokenId={String(tokenId)} />
