@@ -1,8 +1,8 @@
 import { BIG_ZERO } from 'utils/bigNumber'
-import { Text, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { Text, useMatchBreakpoints } from '@arborswap/uikit'
 import BigNumber from 'bignumber.js'
 import { DeserializedPool } from 'state/types'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@arborswap/localization'
 import BaseCell, { CellContent } from './BaseCell'
 import Apr from '../../Apr'
 

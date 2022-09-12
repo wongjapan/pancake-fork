@@ -1,6 +1,6 @@
 import styled, { keyframes } from 'styled-components'
-import { Flex, Button, Link } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { Flex, Button, Link } from '@arborswap/uikit'
+import { useTranslation } from '@arborswap/localization'
 import { TicketCard } from '../../svgs'
 
 const mainTicketAnimation = keyframes`

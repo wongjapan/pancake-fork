@@ -1,7 +1,7 @@
 import NoBscVaultAbi from 'config/abi/NoBscVaultAbi.json'
 import { getMasterChefAddress } from 'utils/addressHelpers'
 import { multicallv2 } from 'utils/multicall'
-import { ChainId } from '@pancakeswap/sdk'
+import { ChainId } from '@arborswap/sdk'
 
 // will return BSC or BSC Testnet chainId
 export const getBscChainId = async (chainId: number) => {

@@ -1,6 +1,6 @@
-import { Box, Button, Flex, InjectedModalProps, Modal, Text, TwitterIcon } from '@pancakeswap/uikit'
+import { Box, Button, Flex, InjectedModalProps, Modal, Text, TwitterIcon } from '@arborswap/uikit'
 import confetti from 'canvas-confetti'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@arborswap/localization'
 import delay from 'lodash/delay'
 import { useEffect } from 'react'
 import styled from 'styled-components'

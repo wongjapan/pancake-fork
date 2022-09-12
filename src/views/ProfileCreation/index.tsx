@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import { useWeb3React } from '@pancakeswap/wagmi'
+import { useWeb3React } from '@arborswap/wagmi'
 import Page from 'components/Layout/Page'
 import { useProfile } from 'state/profile/hooks'
 import PageLoader from 'components/Loader/PageLoader'

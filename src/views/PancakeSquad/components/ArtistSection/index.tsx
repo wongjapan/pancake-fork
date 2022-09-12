@@ -1,5 +1,5 @@
-import { Box, Button, Flex, Text } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { Box, Button, Flex, Text } from '@arborswap/uikit'
+import { useTranslation } from '@arborswap/localization'
 import { LandingBodyWrapper, StyledWaveContainer } from 'views/PancakeSquad/styles'
 import { useTheme } from 'styled-components'
 import artistConfigBuilder from './config'

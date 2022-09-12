@@ -1,4 +1,4 @@
-import { Button, ButtonProps } from '@pancakeswap/uikit'
+import { Button, ButtonProps } from '@arborswap/uikit'
 import { useWallet } from 'hooks/useWallet'
 // @ts-ignore
 // eslint-disable-next-line import/extensions

@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Flex, Text, Skeleton, AccountFilledIcon } from '@pancakeswap/uikit'
+import { useTranslation } from '@arborswap/localization'
+import { Flex, Text, Skeleton, AccountFilledIcon } from '@arborswap/uikit'
 import { StyledVolumeText, PodiumProps, RightBox, MiddleBox, LeftBox, Wrapper, Inner, StyledVolumeFlex } from './styles'
 import TeamPodiumIcon from './TeamPodiumIcon'
 import { PodiumBase } from '../../../svgs'

@@ -1,5 +1,5 @@
 import { BigNumber, FixedNumber } from '@ethersproject/bignumber'
-import { ChainId } from '@pancakeswap/sdk'
+import { ChainId } from '@arborswap/sdk'
 import { SerializedFarmPublicData, FarmData } from './types'
 import { equalsIgnoreCase } from './equalsIgnoreCase'
 import { FIXED_ONE, FIXED_TEN_IN_POWER_18, FIXED_TWO, FIXED_ZERO } from './const'

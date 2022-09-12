@@ -1,7 +1,7 @@
 import { MaxUint256 } from '@ethersproject/constants'
 import { parseUnits } from '@ethersproject/units'
-import { useTranslation } from '@pancakeswap/localization'
-import { bscTokens } from '@pancakeswap/tokens'
+import { useTranslation } from '@arborswap/localization'
+import { bscTokens } from '@arborswap/tokens'
 import {
   BalanceInput,
   Box,
@@ -16,8 +16,8 @@ import {
   TooltipText,
   useToast,
   useTooltip,
-} from '@pancakeswap/uikit'
-import { useWeb3React } from '@pancakeswap/wagmi'
+} from '@arborswap/uikit'
+import { useWeb3React } from '@arborswap/wagmi'
 import BigNumber from 'bignumber.js'
 import ApproveConfirmButtons from 'components/ApproveConfirmButtons'
 import { ToastDescriptionWithTx } from 'components/Toast'

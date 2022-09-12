@@ -4,7 +4,7 @@ import { provider } from 'utils/wagmi'
 import { Contract } from '@ethersproject/contracts'
 import poolsConfig from 'config/constants/pools'
 import { PoolCategory } from 'config/constants/types'
-import { CAKE } from '@pancakeswap/tokens'
+import { CAKE } from '@arborswap/tokens'
 
 // Addresses
 import {
@@ -140,7 +140,7 @@ import type {
   BCakeFarmBoosterProxyFactory,
   BCakeProxy,
 } from 'config/abi/types'
-import { ChainId } from '@pancakeswap/sdk'
+import { ChainId } from '@arborswap/sdk'
 
 export const getContract = ({
   abi,

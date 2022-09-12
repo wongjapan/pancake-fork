@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { escapeRegExp } from 'utils'
-import { Text, Button, Input, Flex, Box } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { Text, Button, Input, Flex, Box } from '@arborswap/uikit'
+import { useTranslation } from '@arborswap/localization'
 import { useUserSlippageTolerance, useUserTransactionTTL } from 'state/user/hooks'
 import QuestionHelper from '../../QuestionHelper'
 

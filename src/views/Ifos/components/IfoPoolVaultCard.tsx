@@ -1,5 +1,5 @@
 import { useMemo } from 'react'
-import { Flex, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { Flex, useMatchBreakpoints } from '@arborswap/uikit'
 import CakeVaultCard from 'views/Pools/components/CakeVaultCard'
 import { usePoolsWithVault } from 'state/pools/hooks'
 import IfoPoolVaultCardMobile from './IfoPoolVaultCardMobile'

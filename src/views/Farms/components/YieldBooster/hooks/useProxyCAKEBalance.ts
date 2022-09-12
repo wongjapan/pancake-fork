@@ -1,4 +1,4 @@
-import { useWeb3React } from '@pancakeswap/wagmi'
+import { useWeb3React } from '@arborswap/wagmi'
 import { useSWRContract } from 'hooks/useSWRContract'
 import { getCakeContract } from 'utils/contractHelpers'
 import { getBalanceNumber } from 'utils/formatBalance'

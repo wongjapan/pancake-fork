@@ -1,5 +1,5 @@
-import { Box, CardBody, Flex, Text } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { Box, CardBody, Flex, Text } from '@arborswap/uikit'
+import { useTranslation } from '@arborswap/localization'
 import { useBNBBusdPrice } from 'hooks/useBUSDPrice'
 import PreviewImage from './PreviewImage'
 import { CostLabel, LowestPriceMetaRow, MetaRow } from './styles'

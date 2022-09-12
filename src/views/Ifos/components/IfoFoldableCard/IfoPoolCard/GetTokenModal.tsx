@@ -1,6 +1,6 @@
-import { Modal, ModalBody, Text, Image, Button, Link, OpenNewIcon } from '@pancakeswap/uikit'
-import { Token } from '@pancakeswap/sdk'
-import { useTranslation } from '@pancakeswap/localization'
+import { Modal, ModalBody, Text, Image, Button, Link, OpenNewIcon } from '@arborswap/uikit'
+import { Token } from '@arborswap/sdk'
+import { useTranslation } from '@arborswap/localization'
 
 interface Props {
   currency: Token

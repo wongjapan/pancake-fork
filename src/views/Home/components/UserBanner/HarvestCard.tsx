@@ -1,4 +1,4 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@arborswap/localization'
 import {
   ArrowForwardIcon,
   AutoRenewIcon,
@@ -9,7 +9,7 @@ import {
   Skeleton,
   Text,
   useToast,
-} from '@pancakeswap/uikit'
+} from '@arborswap/uikit'
 import BigNumber from 'bignumber.js'
 import Balance from 'components/Balance'
 import { NextLinkFromReactRouter } from 'components/NextLink'

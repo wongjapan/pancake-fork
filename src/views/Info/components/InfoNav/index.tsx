@@ -1,6 +1,6 @@
-import { Box, ButtonMenu, ButtonMenuItem, Flex } from '@pancakeswap/uikit'
+import { Box, ButtonMenu, ButtonMenuItem, Flex } from '@arborswap/uikit'
 import { NextLinkFromReactRouter } from 'components/NextLink'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@arborswap/localization'
 import { useRouter } from 'next/router'
 import styled from 'styled-components'
 import Search from 'views/Info/components/InfoSearch'

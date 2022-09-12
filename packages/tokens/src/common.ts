@@ -1,4 +1,4 @@
-import { ChainId, Token } from '@pancakeswap/sdk'
+import { ChainId, Token } from '@arborswap/sdk'
 
 export const CAKE_MAINNET = new Token(
   ChainId.BSC,

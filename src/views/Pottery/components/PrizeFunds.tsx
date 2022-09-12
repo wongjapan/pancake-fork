@@ -1,6 +1,6 @@
 import styled from 'styled-components'
-import { Box, Flex, Text, Heading } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { Box, Flex, Text, Heading } from '@arborswap/uikit'
+import { useTranslation } from '@arborswap/localization'
 import Divider from 'components/Divider'
 import Image from 'next/image'
 

@@ -1,11 +1,11 @@
-import { Flex, Box, Text } from '@pancakeswap/uikit'
+import { Flex, Box, Text } from '@arborswap/uikit'
 import { LightGreyCard } from 'components/Card'
 import { TokenImage } from 'components/TokenImage'
 import BalanceWithLoading from 'components/Balance'
 import { Ifo, PoolIds } from 'config/constants/types'
 import { WalletIfoData } from 'views/Ifos/types'
 import { getBalanceNumber } from 'utils/formatBalance'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@arborswap/localization'
 
 interface TotalPurchasedProps {
   ifo: Ifo

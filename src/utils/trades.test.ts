@@ -1,4 +1,4 @@
-import { Trade, Route, Token, ChainId, Pair, JSBI, TradeType, CurrencyAmount } from '@pancakeswap/sdk'
+import { Trade, Route, Token, ChainId, Pair, JSBI, TradeType, CurrencyAmount } from '@arborswap/sdk'
 import { BETTER_TRADE_LESS_HOPS_THRESHOLD } from 'config/constants/exchange'
 import { isTradeBetter } from './trades'
 

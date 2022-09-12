@@ -1,4 +1,4 @@
-import { useWeb3React } from '@pancakeswap/wagmi'
+import { useWeb3React } from '@arborswap/wagmi'
 import { useEffect, useState } from 'react'
 import { API_PROFILE } from 'config/constants/endpoints'
 

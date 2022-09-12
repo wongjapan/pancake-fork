@@ -1,4 +1,4 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@arborswap/localization'
 import {
   AutoRenewIcon,
   BalanceInput,
@@ -13,8 +13,8 @@ import {
   Slider,
   Text,
   useToast,
-} from '@pancakeswap/uikit'
-import { useWeb3React } from '@pancakeswap/wagmi'
+} from '@arborswap/uikit'
+import { useWeb3React } from '@arborswap/wagmi'
 import BigNumber from 'bignumber.js'
 import RoiCalculatorModal from 'components/RoiCalculatorModal'
 import { ToastDescriptionWithTx } from 'components/Toast'

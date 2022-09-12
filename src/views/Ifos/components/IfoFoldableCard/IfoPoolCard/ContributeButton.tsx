@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Button, useModal, useToast } from '@pancakeswap/uikit'
+import { useTranslation } from '@arborswap/localization'
+import { Button, useModal, useToast } from '@arborswap/uikit'
 import BigNumber from 'bignumber.js'
 import { ToastDescriptionWithTx } from 'components/Toast'
 import { Ifo, PoolIds } from 'config/constants/types'

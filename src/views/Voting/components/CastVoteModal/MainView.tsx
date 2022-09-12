@@ -10,8 +10,8 @@ import {
   Message,
   Flex,
   RocketIcon,
-} from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+} from '@arborswap/uikit'
+import { useTranslation } from '@arborswap/localization'
 import { formatNumber } from 'utils/formatBalance'
 import useCurrentBlockTimestamp from 'hooks/useCurrentBlockTimestamp'
 import TextEllipsis from '../TextEllipsis'

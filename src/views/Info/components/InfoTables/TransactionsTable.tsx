@@ -3,13 +3,13 @@
 import { useCallback, useState, useMemo, useEffect, Fragment } from 'react'
 import styled from 'styled-components'
 import { formatDistanceToNowStrict } from 'date-fns'
-import { Text, Flex, Box, Radio, Skeleton, LinkExternal, ArrowForwardIcon, ArrowBackIcon } from '@pancakeswap/uikit'
+import { Text, Flex, Box, Radio, Skeleton, LinkExternal, ArrowForwardIcon, ArrowBackIcon } from '@arborswap/uikit'
 import { formatAmount } from 'utils/formatInfoNumbers'
 import { getBlockExploreLink } from 'utils'
-import truncateHash from '@pancakeswap/utils/truncateHash'
+import truncateHash from '@arborswap/utils/truncateHash'
 import { Transaction, TransactionType } from 'state/info/types'
 import { ITEMS_PER_INFO_TABLE_PAGE } from 'config/constants/info'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@arborswap/localization'
 import { ClickableColumnHeader, TableWrapper, PageButtons, Arrow, Break } from './shared'
 
 const Wrapper = styled.div`

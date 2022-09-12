@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Flex, HelpIcon, Text, useTooltip } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { Flex, HelpIcon, Text, useTooltip } from '@arborswap/uikit'
+import { useTranslation } from '@arborswap/localization'
 import BigNumber from 'bignumber.js'
 
 import BaseCell, { CellContent } from 'views/Pools/components/PoolsTable/Cells/BaseCell'

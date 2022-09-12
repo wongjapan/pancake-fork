@@ -1,5 +1,5 @@
-import { Flex, Box, Text, Button } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { Flex, Box, Text, Button } from '@arborswap/uikit'
+import { useTranslation } from '@arborswap/localization'
 import { Divider } from '../shared/styles'
 
 interface RemoveStageProps {

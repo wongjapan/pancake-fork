@@ -1,5 +1,5 @@
-import { SubMenuItems } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { SubMenuItems } from '@arborswap/uikit'
+import { useTranslation } from '@arborswap/localization'
 import { PageMeta } from 'components/Layout/Page'
 import { useRouter } from 'next/router'
 import { useFetchIfo } from 'state/pools/hooks'

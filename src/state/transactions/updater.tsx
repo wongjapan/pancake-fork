@@ -1,10 +1,10 @@
 import { useEffect, useMemo } from 'react'
 import { useSelector } from 'react-redux'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@arborswap/localization'
 import useActiveWeb3React from 'hooks/useActiveWeb3React'
 import { useCurrentBlock } from 'state/block/hooks'
 import { ToastDescriptionWithTx } from 'components/Toast'
-import { useToast } from '@pancakeswap/uikit'
+import { useToast } from '@arborswap/uikit'
 import { AppState, useAppDispatch } from '../index'
 import { checkedTransaction, finalizeTransaction } from './actions'
 

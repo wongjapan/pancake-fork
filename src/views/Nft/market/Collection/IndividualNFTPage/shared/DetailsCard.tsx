@@ -1,9 +1,9 @@
 import styled from 'styled-components'
-import { Box, Flex, Text, SearchIcon, Link } from '@pancakeswap/uikit'
+import { Box, Flex, Text, SearchIcon, Link } from '@arborswap/uikit'
 import { getBlockExploreLink } from 'utils'
 import { formatNumber } from 'utils/formatBalance'
-import uriToHttp from '@pancakeswap/utils/uriToHttp'
-import { useTranslation } from '@pancakeswap/localization'
+import uriToHttp from '@arborswap/utils/uriToHttp'
+import { useTranslation } from '@arborswap/localization'
 import useActiveWeb3React from 'hooks/useActiveWeb3React'
 import ExpandableCard from './ExpandableCard'
 

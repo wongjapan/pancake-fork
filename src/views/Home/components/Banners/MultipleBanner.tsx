@@ -1,5 +1,5 @@
-import { appearAnimation, useIsomorphicEffect, useMatchBreakpoints } from '@pancakeswap/uikit'
-import { useWeb3React } from '@pancakeswap/wagmi'
+import { appearAnimation, useIsomorphicEffect, useMatchBreakpoints } from '@arborswap/uikit'
+import { useWeb3React } from '@arborswap/wagmi'
 import { useState } from 'react'
 import styled from 'styled-components'
 import SwiperCore, { Autoplay, EffectFade, Pagination } from 'swiper'

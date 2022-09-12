@@ -13,10 +13,10 @@ import {
   Box,
   CardFooter,
   ExpandableLabel,
-} from '@pancakeswap/uikit'
-import { useWeb3React } from '@pancakeswap/wagmi'
+} from '@arborswap/uikit'
+import { useWeb3React } from '@arborswap/wagmi'
 import { LotteryStatus } from 'config/constants/types'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@arborswap/localization'
 import { usePriceCakeBusd } from 'state/farms/hooks'
 import { useLottery } from 'state/lottery/hooks'
 import { getBalanceNumber } from 'utils/formatBalance'

@@ -14,7 +14,7 @@ import {
   Card,
   Skeleton,
   useMatchBreakpoints,
-} from '@pancakeswap/uikit'
+} from '@arborswap/uikit'
 import useSWRImmutable from 'swr/immutable'
 import orderBy from 'lodash/orderBy'
 import { getLeastMostPriceInCollection } from 'state/nftMarket/helpers'
@@ -26,7 +26,7 @@ import { laggyMiddleware } from 'hooks/useSWRContract'
 import { FetchStatus } from 'config/constants/types'
 import { useGetShuffledCollections } from 'state/nftMarket/hooks'
 import Select, { OptionProps } from 'components/Select/Select'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@arborswap/localization'
 import Page from 'components/Layout/Page'
 import PageHeader from 'components/PageHeader'
 import { nftsBaseUrl } from 'views/Nft/market/constants'

@@ -1,7 +1,7 @@
 import { useRef, useMemo } from 'react'
 import { latinise } from 'utils/latinise'
 import styled from 'styled-components'
-import { RowType } from '@pancakeswap/uikit'
+import { RowType } from '@arborswap/uikit'
 import BigNumber from 'bignumber.js'
 import { getBalanceNumber } from 'utils/formatBalance'
 import { BIG_ZERO } from 'utils/bigNumber'

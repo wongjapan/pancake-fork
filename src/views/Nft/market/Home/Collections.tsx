@@ -1,8 +1,8 @@
-import { Button, ChevronRightIcon, Flex, Grid, Heading, Text } from '@pancakeswap/uikit'
+import { Button, ChevronRightIcon, Flex, Grid, Heading, Text } from '@arborswap/uikit'
 import { NextLinkFromReactRouter } from 'components/NextLink'
 import { nftsBaseUrl } from 'views/Nft/market/constants'
 import { Collection } from 'state/nftMarket/types'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@arborswap/localization'
 import { CollectionCard } from '../components/CollectibleCard'
 import { BNBAmountLabel } from '../components/CollectibleCard/styles'
 

@@ -16,10 +16,10 @@ import {
   Spinner,
   Image,
   useMatchBreakpoints,
-} from '@pancakeswap/uikit'
+} from '@arborswap/uikit'
 import Page from 'components/Layout/Page'
 import { getBlockExploreLink } from 'utils'
-import truncateHash from '@pancakeswap/utils/truncateHash'
+import truncateHash from '@arborswap/utils/truncateHash'
 import useCMCLink from 'views/Info/hooks/useCMCLink'
 import { CurrencyLogo } from 'views/Info/components/CurrencyLogo'
 import { formatAmount } from 'utils/formatInfoNumbers'
@@ -37,7 +37,7 @@ import PoolTable from 'views/Info/components/InfoTables/PoolsTable'
 import TransactionTable from 'views/Info/components/InfoTables/TransactionsTable'
 import { useWatchlistTokens } from 'state/user/hooks'
 import { ONE_HOUR_SECONDS } from 'config/constants/info'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@arborswap/localization'
 import ChartCard from 'views/Info/components/InfoCharts/ChartCard'
 
 const ContentLayout = styled.div`

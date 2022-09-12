@@ -1,5 +1,5 @@
-import { ButtonMenu, ButtonMenuItem } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { ButtonMenu, ButtonMenuItem } from '@arborswap/uikit'
+import { useTranslation } from '@arborswap/localization'
 
 const HistoryTabMenu = ({ setActiveIndex, activeIndex }) => {
   const { t } = useTranslation()

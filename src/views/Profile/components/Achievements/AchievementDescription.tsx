@@ -1,5 +1,5 @@
-import { Text, TextProps } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { Text, TextProps } from '@arborswap/uikit'
+import { useTranslation } from '@arborswap/localization'
 import { TranslatableText as AchievementDescriptionType } from 'config/constants/types'
 import styled from 'styled-components'
 

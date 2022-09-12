@@ -1,7 +1,7 @@
 import BigNumber from 'bignumber.js'
-import { Token, ChainId } from '@pancakeswap/sdk'
-import { SerializedWrappedToken } from '@pancakeswap/tokens'
-import type { SerializedFarmConfig, FarmConfigBaseProps } from '@pancakeswap/farms'
+import { Token, ChainId } from '@arborswap/sdk'
+import { SerializedWrappedToken } from '@arborswap/tokens'
+import type { SerializedFarmConfig, FarmConfigBaseProps } from '@arborswap/farms'
 
 // a list of tokens by chain
 export type ChainMap<T> = {

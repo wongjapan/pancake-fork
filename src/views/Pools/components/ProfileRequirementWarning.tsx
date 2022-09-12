@@ -1,6 +1,6 @@
-import { Box, Message, MessageText } from '@pancakeswap/uikit'
+import { Box, Message, MessageText } from '@arborswap/uikit'
 import { NextLinkFromReactRouter } from 'components/NextLink'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@arborswap/localization'
 import { DeserializedPool } from 'state/types'
 import { useProfileRequirement } from '../hooks/useProfileRequirement'
 

@@ -1,6 +1,6 @@
-import { Box, Flex, FlexProps } from '@pancakeswap/uikit'
+import { Box, Flex, FlexProps } from '@arborswap/uikit'
 import styled from 'styled-components'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@arborswap/localization'
 import { CopyButton } from '../../CopyButton'
 
 interface CopyAddressProps extends FlexProps {

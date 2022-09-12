@@ -1,5 +1,5 @@
-import { Flex, Grid, Text, Button, Link, BinanceIcon, LinkExternal, useModal } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { Flex, Grid, Text, Button, Link, BinanceIcon, LinkExternal, useModal } from '@arborswap/uikit'
+import { useTranslation } from '@arborswap/localization'
 import { nftsBaseUrl, pancakeBunniesAddress } from 'views/Nft/market/constants'
 import { NftToken } from 'state/nftMarket/types'
 import { getBscScanLinkForNft } from 'utils'

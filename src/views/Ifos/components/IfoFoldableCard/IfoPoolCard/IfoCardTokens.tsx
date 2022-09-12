@@ -12,14 +12,14 @@ import {
   Message,
   MessageText,
   ErrorIcon,
-} from '@pancakeswap/uikit'
-import { useWeb3React } from '@pancakeswap/wagmi'
-import { Token } from '@pancakeswap/sdk'
+} from '@arborswap/uikit'
+import { useWeb3React } from '@arborswap/wagmi'
+import { Token } from '@arborswap/sdk'
 import { Ifo, PoolIds } from 'config/constants/types'
-import { bscTokens } from '@pancakeswap/tokens'
+import { bscTokens } from '@arborswap/tokens'
 import { cakeBnbLpToken } from 'config/constants/ifo'
 import { PublicIfoData, WalletIfoData } from 'views/Ifos/types'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@arborswap/localization'
 import { getBalanceNumber } from 'utils/formatBalance'
 import { useIfoCredit } from 'state/pools/hooks'
 import { TokenImage, TokenPairImage } from 'components/TokenImage'

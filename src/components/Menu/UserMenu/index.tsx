@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { ChainId } from '@pancakeswap/sdk'
+import { useTranslation } from '@arborswap/localization'
+import { ChainId } from '@arborswap/sdk'
 import {
   Box,
   Flex,
@@ -10,7 +10,7 @@ import {
   UserMenuDivider,
   UserMenuItem,
   UserMenuVariant,
-} from '@pancakeswap/uikit'
+} from '@arborswap/uikit'
 import ConnectWalletButton from 'components/ConnectWalletButton'
 import Trans from 'components/Trans'
 import { useActiveChainId } from 'hooks/useActiveChainId'

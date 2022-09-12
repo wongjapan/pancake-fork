@@ -1,6 +1,6 @@
 import { BigNumber } from '@ethersproject/bignumber'
 import { formatUnits } from '@ethersproject/units'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@arborswap/localization'
 import {
   computePriceImpact,
   Currency,
@@ -11,7 +11,7 @@ import {
   Percent,
   Price,
   Token,
-} from '@pancakeswap/sdk'
+} from '@arborswap/sdk'
 import { BIG_INT_ZERO } from 'config/constants/exchange'
 import { FetchStatus } from 'config/constants/types'
 import { useTradeExactIn } from 'hooks/Trades'
@@ -19,14 +19,14 @@ import useActiveWeb3React from 'hooks/useActiveWeb3React'
 import { useZapContract } from 'hooks/useContract'
 import useNativeCurrency from 'hooks/useNativeCurrency'
 import { PairState, usePair } from 'hooks/usePairs'
-import { usePreviousValue } from '@pancakeswap/hooks'
+import { usePreviousValue } from '@arborswap/hooks'
 import { useSWRContract } from 'hooks/useSWRContract'
 import useTotalSupply from 'hooks/useTotalSupply'
 import { useCallback, useEffect, useMemo, useState } from 'react'
 import { useSelector } from 'react-redux'
 import { useGasPrice } from 'state/user/hooks'
 import { warningSeverity } from 'utils/exchange'
-import tryParseAmount from '@pancakeswap/utils/tryParseAmount'
+import tryParseAmount from '@arborswap/utils/tryParseAmount'
 import { AppState, useAppDispatch } from '../index'
 import { useCurrencyBalances } from '../wallet/hooks'
 import { Field, typeInput } from './actions'

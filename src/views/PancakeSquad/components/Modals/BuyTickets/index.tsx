@@ -14,8 +14,8 @@ import {
   ModalProps,
   ModalTitle,
   Text,
-} from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+} from '@arborswap/uikit'
+import { useTranslation } from '@arborswap/localization'
 import useTheme from 'hooks/useTheme'
 import { useState } from 'react'
 import { formatBigNumber } from 'utils/formatBalance'

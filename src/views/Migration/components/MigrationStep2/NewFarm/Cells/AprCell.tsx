@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Flex, Text } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { Flex, Text } from '@arborswap/uikit'
+import { useTranslation } from '@arborswap/localization'
 import BaseCell, { CellContent } from 'views/Pools/components/PoolsTable/Cells/BaseCell'
 import Apr, { AprProps } from 'views/Farms/components/FarmTable/Apr'
 

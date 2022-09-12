@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Button, useModal, useToast } from '@pancakeswap/uikit'
+import { useTranslation } from '@arborswap/localization'
+import { Button, useModal, useToast } from '@arborswap/uikit'
 import { ToastDescriptionWithTx } from 'components/Toast'
 import useActiveWeb3React from 'hooks/useActiveWeb3React'
 import useCatchTxError from 'hooks/useCatchTxError'

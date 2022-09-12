@@ -1,7 +1,7 @@
 import { useMemo } from 'react'
 import BigNumber from 'bignumber.js'
-import { Text } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { Text } from '@arborswap/uikit'
+import { useTranslation } from '@arborswap/localization'
 import { getFullDisplayBalance } from 'utils/formatBalance'
 
 interface VestingAvailableToClaimProps {

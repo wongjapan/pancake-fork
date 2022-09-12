@@ -14,10 +14,10 @@ import {
   Text,
   useTooltip,
   useMatchBreakpoints,
-} from '@pancakeswap/uikit'
+} from '@arborswap/uikit'
 import Page from 'components/Layout/Page'
 import { NextLinkFromReactRouter } from 'components/NextLink'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@arborswap/localization'
 import { useState } from 'react'
 import { usePoolChartData, usePoolDatas, usePoolTransactions } from 'state/info/hooks'
 import { useWatchlistPools } from 'state/user/hooks'

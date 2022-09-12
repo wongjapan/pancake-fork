@@ -11,9 +11,9 @@ import {
   TwitterIcon,
   Link,
   TelegramIcon,
-} from '@pancakeswap/uikit'
-import { bscTokens } from '@pancakeswap/tokens'
-import { useTranslation } from '@pancakeswap/localization'
+} from '@arborswap/uikit'
+import { bscTokens } from '@arborswap/tokens'
+import { useTranslation } from '@arborswap/localization'
 import { PublicIfoData } from 'views/Ifos/types'
 import { Ifo } from 'config/constants/types'
 import { BIG_TEN } from 'utils/bigNumber'

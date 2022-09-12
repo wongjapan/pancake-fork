@@ -1,8 +1,8 @@
 import styled from 'styled-components'
 import { useFarmUser } from 'state/farms/hooks'
-import { useTranslation } from '@pancakeswap/localization'
-import { Text, Skeleton } from '@pancakeswap/uikit'
-import { Token } from '@pancakeswap/sdk'
+import { useTranslation } from '@arborswap/localization'
+import { Text, Skeleton } from '@arborswap/uikit'
+import { Token } from '@arborswap/sdk'
 import { getBalanceNumber } from 'utils/formatBalance'
 import { TokenPairImage } from 'components/TokenImage'
 

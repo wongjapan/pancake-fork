@@ -1,8 +1,8 @@
 import { ReactNode } from 'react'
 import styled from 'styled-components'
-import { Flex, Skeleton, Text } from '@pancakeswap/uikit'
+import { Flex, Skeleton, Text } from '@arborswap/uikit'
 import Balance from 'components/Balance'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@arborswap/localization'
 import { FlexGap } from 'components/Layout/Flex'
 
 interface TopFarmPoolProps {

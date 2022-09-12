@@ -1,4 +1,4 @@
-import { Token } from '@pancakeswap/sdk'
+import { Token } from '@arborswap/sdk'
 import {
   AutoRenewIcon,
   Box,
@@ -15,13 +15,13 @@ import {
   Text,
   TrophyGoldIcon,
   useToast,
-} from '@pancakeswap/uikit'
+} from '@arborswap/uikit'
 import { AnyAction, AsyncThunkAction } from '@reduxjs/toolkit'
 import { useEffect } from 'react'
 import styled from 'styled-components'
 
-import { useTranslation } from '@pancakeswap/localization'
-import { useWeb3React } from '@pancakeswap/wagmi'
+import { useTranslation } from '@arborswap/localization'
+import { useWeb3React } from '@arborswap/wagmi'
 import { ToastDescriptionWithTx } from 'components/Toast'
 import useBUSDPrice from 'hooks/useBUSDPrice'
 import { useCallWithGasPrice } from 'hooks/useCallWithGasPrice'

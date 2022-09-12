@@ -1,4 +1,4 @@
-import { ContextApi } from '@pancakeswap/localization'
+import { ContextApi } from '@arborswap/localization'
 import { SaleStatusEnum } from './types'
 import { getAltText, getEventStepStatus, getEventText } from './utils'
 

@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Flex, TokenPairImage } from '@pancakeswap/uikit'
+import { Flex, TokenPairImage } from '@arborswap/uikit'
 import { PoolCardHeaderTitle } from 'views/Pools/components/PoolCard/PoolCardHeader'
 
 const Container = styled(Flex)`

@@ -1,5 +1,5 @@
 import { TokenInfo, TokenList, Tags } from '@uniswap/token-lists'
-import { Token, ChainId, SerializedToken } from '@pancakeswap/sdk'
+import { Token, ChainId, SerializedToken } from '@arborswap/sdk'
 
 export interface SerializedWrappedToken extends SerializedToken {
   chainId: number

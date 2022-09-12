@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { AddIcon, Button, Flex, IconButton, MinusIcon, useModal, useToast } from '@pancakeswap/uikit'
+import { useTranslation } from '@arborswap/localization'
+import { AddIcon, Button, Flex, IconButton, MinusIcon, useModal, useToast } from '@arborswap/uikit'
 import { ToastDescriptionWithTx } from 'components/Toast'
 import useCatchTxError from 'hooks/useCatchTxError'
 import { useCallback, useContext } from 'react'

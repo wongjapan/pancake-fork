@@ -1,7 +1,7 @@
-import { useWeb3React } from '@pancakeswap/wagmi'
-import { Flex, Text, Heading } from '@pancakeswap/uikit'
+import { useWeb3React } from '@arborswap/wagmi'
+import { Flex, Text, Heading } from '@arborswap/uikit'
 import styled from 'styled-components'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@arborswap/localization'
 import Link from 'next/link'
 import HowToCard from './HowToCard'
 

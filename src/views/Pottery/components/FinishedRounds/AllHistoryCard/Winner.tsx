@@ -1,7 +1,7 @@
 import styled from 'styled-components'
-import { Box, Flex, Text, ProfileAvatar, Skeleton } from '@pancakeswap/uikit'
+import { Box, Flex, Text, ProfileAvatar, Skeleton } from '@arborswap/uikit'
 import { useProfileForAddress } from 'state/profile/hooks'
-import truncateHash from '@pancakeswap/utils/truncateHash'
+import truncateHash from '@arborswap/utils/truncateHash'
 
 const Container = styled(Flex)`
   min-width: 158px;

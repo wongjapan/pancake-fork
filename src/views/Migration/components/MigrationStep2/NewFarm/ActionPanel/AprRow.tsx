@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Flex, Text } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { Flex, Text } from '@arborswap/uikit'
+import { useTranslation } from '@arborswap/localization'
 import Apr, { AprProps } from 'views/Farms/components/FarmTable/Apr'
 
 const Containter = styled(Flex)`

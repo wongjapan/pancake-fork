@@ -1,4 +1,4 @@
-import { useWeb3React } from '@pancakeswap/wagmi'
+import { useWeb3React } from '@arborswap/wagmi'
 import { useEffect, useRef } from 'react'
 
 interface GlobalCheckClaimStatusProps {

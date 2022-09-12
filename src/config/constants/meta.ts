@@ -1,5 +1,5 @@
 import memoize from 'lodash/memoize'
-import { ContextApi } from '@pancakeswap/localization'
+import { ContextApi } from '@arborswap/localization'
 import { PageMeta } from './types'
 
 export const DEFAULT_META: PageMeta = {

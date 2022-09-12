@@ -1,5 +1,5 @@
-import { Heading, Flex, Text, Skeleton, ChartIcon, CommunityIcon, SwapIcon } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { Heading, Flex, Text, Skeleton, ChartIcon, CommunityIcon, SwapIcon } from '@arborswap/uikit'
+import { useTranslation } from '@arborswap/localization'
 import useTheme from 'hooks/useTheme'
 import { formatLocalisedCompactNumber } from 'utils/formatBalance'
 import useSWRImmutable from 'swr/immutable'

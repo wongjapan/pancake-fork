@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Token } from '@pancakeswap/sdk'
+import { useTranslation } from '@arborswap/localization'
+import { Token } from '@arborswap/sdk'
 import {
   AutoRenewIcon,
   Button,
@@ -12,8 +12,8 @@ import {
   Text,
   useToast,
   useTooltip,
-} from '@pancakeswap/uikit'
-import { useWeb3React } from '@pancakeswap/wagmi'
+} from '@arborswap/uikit'
+import { useWeb3React } from '@arborswap/wagmi'
 import { ToastDescriptionWithTx } from 'components/Toast'
 import useCatchTxError from 'hooks/useCatchTxError'
 import useTheme from 'hooks/useTheme'

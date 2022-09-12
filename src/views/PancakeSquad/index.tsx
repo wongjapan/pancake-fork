@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { useWeb3React } from '@pancakeswap/wagmi'
+import { useWeb3React } from '@arborswap/wagmi'
 import nftSaleAbi from 'config/abi/nftSale.json'
 import { useProfile } from 'state/profile/hooks'
 import ArtistSection from './components/ArtistSection'

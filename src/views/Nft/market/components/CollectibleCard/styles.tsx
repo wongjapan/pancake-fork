@@ -11,9 +11,9 @@ import {
   Text,
   WalletFilledIcon,
   Skeleton,
-} from '@pancakeswap/uikit'
-import { Currency, Price } from '@pancakeswap/sdk'
-import { useTranslation } from '@pancakeswap/localization'
+} from '@arborswap/uikit'
+import { Currency, Price } from '@arborswap/sdk'
+import { useTranslation } from '@arborswap/localization'
 import { multiplyPriceByAmount } from 'utils/prices'
 import styled from 'styled-components'
 

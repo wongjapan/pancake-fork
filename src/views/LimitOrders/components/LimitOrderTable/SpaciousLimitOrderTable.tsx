@@ -1,6 +1,6 @@
 import { memo } from 'react'
-import { Table, Th, Text } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { Table, Th, Text } from '@arborswap/uikit'
+import { useTranslation } from '@arborswap/localization'
 import FullRow from './FullRow'
 
 const SpaciousLimitOrderTable = ({ orders }) => {

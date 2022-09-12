@@ -1,5 +1,5 @@
-import { BinanceIcon, Box, Button, Card, CardBody, Flex, Skeleton, Text, useModal } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { BinanceIcon, Box, Button, Card, CardBody, Flex, Skeleton, Text, useModal } from '@arborswap/uikit'
+import { useTranslation } from '@arborswap/localization'
 import { useBNBBusdPrice } from 'hooks/useBUSDPrice'
 
 import { NftToken } from 'state/nftMarket/types'

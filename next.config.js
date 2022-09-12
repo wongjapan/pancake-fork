@@ -5,7 +5,7 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true',
 })
 const { createVanillaExtractPlugin } = require('@vanilla-extract/next-plugin')
-const withTM = require('next-transpile-modules')(['@pancakeswap/uikit', '@pancakeswap/sdk'])
+const withTM = require('next-transpile-modules')(['@arborswap/uikit', '@arborswap/sdk'])
 
 const withVanillaExtract = createVanillaExtractPlugin()
 

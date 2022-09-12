@@ -1,11 +1,11 @@
 import { useEffect, useMemo } from 'react'
-import { useWeb3React } from '@pancakeswap/wagmi'
+import { useWeb3React } from '@arborswap/wagmi'
 import useActiveWeb3React from 'hooks/useActiveWeb3React'
 import { batch, useSelector } from 'react-redux'
 import { useAppDispatch } from 'state'
 import { useFastRefreshEffect, useSlowRefreshEffect } from 'hooks/useRefreshEffect'
 import { featureFarmApiAtom, useFeatureFlag } from 'hooks/useFeatureFlag'
-import { getFarmConfig } from '@pancakeswap/farms/constants'
+import { getFarmConfig } from '@arborswap/farms/constants'
 import { livePools } from 'config/constants/pools'
 
 import {

@@ -2,7 +2,7 @@ import { configureScope } from '@sentry/nextjs'
 import { Dispatch } from '@reduxjs/toolkit'
 import { resetUserState } from 'state/global/actions'
 import { PREDICTION_TOOLTIP_DISMISS_KEY } from 'config/constants'
-import { connectorLocalStorageKey } from '@pancakeswap/uikit'
+import { connectorLocalStorageKey } from '@arborswap/uikit'
 import { LS_ORDERS } from './localStorageOrders'
 import getLocalStorageItemKeys from './getLocalStorageItemKeys'
 

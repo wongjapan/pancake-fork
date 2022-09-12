@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useMemo, useState } from 'react'
 import { BigNumber, BigNumberish } from '@ethersproject/bignumber'
 import { TransactionResponse } from '@ethersproject/providers'
-import { JSBI, CurrencyAmount, Token, WNATIVE, MINIMUM_LIQUIDITY } from '@pancakeswap/sdk'
+import { JSBI, CurrencyAmount, Token, WNATIVE, MINIMUM_LIQUIDITY } from '@arborswap/sdk'
 import {
   Button,
   Text,
@@ -12,10 +12,10 @@ import {
   TooltipText,
   useTooltip,
   MessageText,
-} from '@pancakeswap/uikit'
+} from '@arborswap/uikit'
 import { logError } from 'utils/sentry'
 import { useIsTransactionUnsupported, useIsTransactionWarning } from 'hooks/Trades'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@arborswap/localization'
 import UnsupportedCurrencyFooter from 'components/UnsupportedCurrencyFooter'
 import { useZapContract } from 'hooks/useContract'
 import useActiveWeb3React from 'hooks/useActiveWeb3React'
@@ -30,7 +30,7 @@ import { ContractMethodName } from 'utils/types'
 import { transactionErrorToUserReadableMessage } from 'utils/transactionErrorToUserReadableMessage'
 import { useLPApr } from 'state/swap/hooks'
 import { ROUTER_ADDRESS } from 'config/constants/exchange'
-import { CAKE, USDC } from '@pancakeswap/tokens'
+import { CAKE, USDC } from '@arborswap/tokens'
 import { LightCard } from '../../components/Card'
 import { AutoColumn, ColumnCenter } from '../../components/Layout/Column'
 import CurrencyInputPanel from '../../components/CurrencyInputPanel'

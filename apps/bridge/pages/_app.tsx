@@ -1,4 +1,4 @@
-import { PancakeTheme, ResetCSS, dark, light, ModalProvider } from '@pancakeswap/uikit'
+import { PancakeTheme, ResetCSS, dark, light, ModalProvider } from '@arborswap/uikit'
 import { useEffect, useState } from 'react'
 import { AppProps } from 'next/app'
 import Script from 'next/script'

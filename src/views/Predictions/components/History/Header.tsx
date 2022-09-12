@@ -1,20 +1,10 @@
-import { useWeb3React } from '@pancakeswap/wagmi'
-import {
-  ArrowForwardIcon,
-  Box,
-  Button,
-  Radio,
-  Flex,
-  Heading,
-  Text,
-  ButtonMenu,
-  ButtonMenuItem,
-} from '@pancakeswap/uikit'
+import { useWeb3React } from '@arborswap/wagmi'
+import { ArrowForwardIcon, Box, Button, Radio, Flex, Heading, Text, ButtonMenu, ButtonMenuItem } from '@arborswap/uikit'
 import useLocalDispatch from 'contexts/LocalRedux/useLocalDispatch'
 import { HistoryFilter } from 'state/types'
 import { setHistoryFilter, setHistoryPaneState } from 'state/predictions'
 import { useGetHistoryFilter, useGetIsFetchingHistory } from 'state/predictions/hooks'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@arborswap/localization'
 import styled from 'styled-components'
 
 const Filter = styled.label`

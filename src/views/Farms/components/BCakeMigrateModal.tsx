@@ -1,5 +1,5 @@
 import { Contract } from '@ethersproject/contracts'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@arborswap/localization'
 import {
   AutoRenewIcon,
   Box,
@@ -11,8 +11,8 @@ import {
   Text,
   useToast,
   useTooltip,
-} from '@pancakeswap/uikit'
-import { useWeb3React } from '@pancakeswap/wagmi'
+} from '@arborswap/uikit'
+import { useWeb3React } from '@arborswap/wagmi'
 import BigNumber from 'bignumber.js'
 import { ToastDescriptionWithTx } from 'components/Toast'
 import useCatchTxError from 'hooks/useCatchTxError'

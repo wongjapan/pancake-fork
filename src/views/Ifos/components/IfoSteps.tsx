@@ -17,11 +17,11 @@ import {
   LogoRoundIcon,
   Skeleton,
   Link,
-} from '@pancakeswap/uikit'
+} from '@arborswap/uikit'
 import { NextLinkFromReactRouter as RouterLink } from 'components/NextLink'
-import { useWeb3React } from '@pancakeswap/wagmi'
+import { useWeb3React } from '@arborswap/wagmi'
 
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@arborswap/localization'
 import useTokenBalance from 'hooks/useTokenBalance'
 import Container from 'components/Layout/Container'
 import { useProfile } from 'state/profile/hooks'

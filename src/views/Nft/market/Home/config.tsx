@@ -1,5 +1,5 @@
-import { LinkExternal } from '@pancakeswap/uikit'
-import { ContextApi } from '@pancakeswap/localization'
+import { LinkExternal } from '@arborswap/uikit'
+import { ContextApi } from '@arborswap/localization'
 
 const config = (t: ContextApi['t']) => {
   return [

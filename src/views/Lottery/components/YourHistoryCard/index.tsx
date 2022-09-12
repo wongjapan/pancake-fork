@@ -1,5 +1,5 @@
 import { useState, useCallback } from 'react'
-import { useWeb3React } from '@pancakeswap/wagmi'
+import { useWeb3React } from '@arborswap/wagmi'
 import styled from 'styled-components'
 import {
   CardHeader,
@@ -12,8 +12,8 @@ import {
   Heading,
   Skeleton,
   Box,
-} from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+} from '@arborswap/uikit'
+import { useTranslation } from '@arborswap/localization'
 import { LotteryStatus } from 'config/constants/types'
 import { useGetUserLotteriesGraphData, useLottery } from 'state/lottery/hooks'
 import { fetchLottery } from 'state/lottery/helpers'

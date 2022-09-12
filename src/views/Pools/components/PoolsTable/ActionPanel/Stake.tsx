@@ -12,13 +12,13 @@ import {
   Box,
   SkeletonV2,
   useMatchBreakpoints,
-} from '@pancakeswap/uikit'
-import { useWeb3React } from '@pancakeswap/wagmi'
+} from '@arborswap/uikit'
+import { useWeb3React } from '@arborswap/wagmi'
 import BigNumber from 'bignumber.js'
 import Balance from 'components/Balance'
 import ConnectWalletButton from 'components/ConnectWalletButton'
 import { PoolCategory } from 'config/constants/types'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@arborswap/localization'
 import { useERC20 } from 'hooks/useContract'
 
 import { useVaultPoolByKey } from 'state/pools/hooks'
@@ -28,7 +28,7 @@ import styled from 'styled-components'
 import { BIG_ZERO } from 'utils/bigNumber'
 import { getBalanceNumber, getFullDisplayBalance } from 'utils/formatBalance'
 import { useProfileRequirement } from 'views/Pools/hooks/useProfileRequirement'
-import isUndefinedOrNull from '@pancakeswap/utils/isUndefinedOrNull'
+import isUndefinedOrNull from '@arborswap/utils/isUndefinedOrNull'
 import useUserDataInVaultPresenter from 'views/Pools/components/LockedPool/hooks/useUserDataInVaultPresenter'
 
 import { useApprovePool, useCheckVaultApprovalStatus, useVaultApprove } from '../../../hooks/useApprove'

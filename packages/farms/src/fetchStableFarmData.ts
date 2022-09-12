@@ -1,6 +1,6 @@
 import { parseUnits } from '@ethersproject/units'
-import { Call, MultiCallV2 } from '@pancakeswap/multicall'
-import { ChainId } from '@pancakeswap/sdk'
+import { Call, MultiCallV2 } from '@arborswap/multicall'
+import { ChainId } from '@arborswap/sdk'
 import chunk from 'lodash/chunk'
 import { SerializedStableFarmConfig } from './types'
 

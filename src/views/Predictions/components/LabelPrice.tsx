@@ -1,6 +1,6 @@
 import { useMemo, memo } from 'react'
 import CountUp from 'react-countup'
-import { Text } from '@pancakeswap/uikit'
+import { Text } from '@arborswap/uikit'
 import { formatBigNumberToFixed } from 'utils/formatBalance'
 import styled from 'styled-components'
 import { BigNumber } from '@ethersproject/bignumber'

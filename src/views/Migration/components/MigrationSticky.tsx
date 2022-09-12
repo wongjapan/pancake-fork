@@ -1,8 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
-import { useWeb3React } from '@pancakeswap/wagmi'
-import { useTranslation } from '@pancakeswap/localization'
-import { Text, Button, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { useWeb3React } from '@arborswap/wagmi'
+import { useTranslation } from '@arborswap/localization'
+import { Text, Button, useMatchBreakpoints } from '@arborswap/uikit'
 import ConnectWalletButton from 'components/ConnectWalletButton'
 import { ProgressStepsType } from './ProgressSteps'
 

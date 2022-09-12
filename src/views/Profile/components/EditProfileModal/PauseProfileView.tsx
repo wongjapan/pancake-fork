@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import { AutoRenewIcon, Button, Checkbox, Flex, InjectedModalProps, Text, useToast } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { AutoRenewIcon, Button, Checkbox, Flex, InjectedModalProps, Text, useToast } from '@arborswap/uikit'
+import { useTranslation } from '@arborswap/localization'
 import useGetProfileCosts from 'views/Profile/hooks/useGetProfileCosts'
 import { useProfile } from 'state/profile/hooks'
 import { formatBigNumber } from 'utils/formatBalance'

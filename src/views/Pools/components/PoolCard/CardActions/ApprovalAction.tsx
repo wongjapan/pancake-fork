@@ -1,5 +1,5 @@
-import { Button, AutoRenewIcon, Skeleton } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { Button, AutoRenewIcon, Skeleton } from '@arborswap/uikit'
+import { useTranslation } from '@arborswap/localization'
 import { useERC20 } from 'hooks/useContract'
 import { DeserializedPool } from 'state/types'
 import { useApprovePool } from '../../../hooks/useApprove'

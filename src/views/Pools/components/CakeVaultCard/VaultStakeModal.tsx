@@ -14,9 +14,9 @@ import {
   Skeleton,
   Box,
   useToast,
-} from '@pancakeswap/uikit'
-import { useWeb3React } from '@pancakeswap/wagmi'
-import { useTranslation } from '@pancakeswap/localization'
+} from '@arborswap/uikit'
+import { useWeb3React } from '@arborswap/wagmi'
+import { useTranslation } from '@arborswap/localization'
 import { useAppDispatch } from 'state'
 
 import { usePriceCakeBusd } from 'state/farms/hooks'

@@ -1,7 +1,7 @@
 import { memo } from 'react'
-import { Text, Flex, TooltipText, useTooltip } from '@pancakeswap/uikit'
+import { Text, Flex, TooltipText, useTooltip } from '@arborswap/uikit'
 import { BalanceWithLoading } from 'components/Balance'
-import isUndefinedOrNull from '@pancakeswap/utils/isUndefinedOrNull'
+import isUndefinedOrNull from '@arborswap/utils/isUndefinedOrNull'
 import _toNumber from 'lodash/toNumber'
 import CrossText from './CrossText'
 

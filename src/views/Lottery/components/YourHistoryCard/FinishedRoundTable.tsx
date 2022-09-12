@@ -1,6 +1,6 @@
 import styled from 'styled-components'
-import { Text, Box, Flex, Button } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { Text, Box, Flex, Button } from '@arborswap/uikit'
+import { useTranslation } from '@arborswap/localization'
 import { LotteryStatus } from 'config/constants/types'
 import { useGetUserLotteriesGraphData } from 'state/lottery/hooks'
 import FinishedRoundRow from './FinishedRoundRow'

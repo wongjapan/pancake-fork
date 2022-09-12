@@ -1,6 +1,6 @@
-import { Box, Button, Flex, Skeleton, Text, CalculateIcon, useModal } from '@pancakeswap/uikit'
+import { Box, Button, Flex, Skeleton, Text, CalculateIcon, useModal } from '@arborswap/uikit'
 import Balance from 'components/Balance'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@arborswap/localization'
 import { DeserializedPool, DeserializedLockedVaultUser, VaultKey, DeserializedVaultUser } from 'state/types'
 import { useVaultApy } from 'hooks/useVaultApy'
 import { VaultPosition } from 'utils/cakePool'

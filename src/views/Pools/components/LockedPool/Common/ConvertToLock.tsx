@@ -1,6 +1,6 @@
-import { Token } from '@pancakeswap/sdk'
-import { Flex, Message, MessageText, useMatchBreakpoints } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { Token } from '@arborswap/sdk'
+import { Flex, Message, MessageText, useMatchBreakpoints } from '@arborswap/uikit'
+import { useTranslation } from '@arborswap/localization'
 import { memo } from 'react'
 import { useVaultApy } from 'hooks/useVaultApy'
 

@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/sdk'
+import { ChainId } from '@arborswap/sdk'
 import { BIG_TEN } from 'utils/bigNumber'
 
 export const BSC_BLOCK_TIME = 3

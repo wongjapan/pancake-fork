@@ -1,5 +1,5 @@
 import { useMemo } from 'react'
-import { LinkStatus } from '@pancakeswap/uikit/src/widgets/Menu/types'
+import { LinkStatus } from '@arborswap/uikit/src/widgets/Menu/types'
 import { useActiveIfoWithBlocks } from 'hooks/useActiveIfoWithBlocks'
 import { useCurrentBlock } from 'state/block/hooks'
 import { PotteryDepositStatus } from 'state/types'

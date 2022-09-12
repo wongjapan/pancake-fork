@@ -1,6 +1,6 @@
-import { getFarmConfig } from '@pancakeswap/farms/constants'
-import { createFarmFetcher } from '@pancakeswap/farms'
-import { ChainId } from '@pancakeswap/sdk'
+import { getFarmConfig } from '@arborswap/farms/constants'
+import { createFarmFetcher } from '@arborswap/farms'
+import { ChainId } from '@arborswap/sdk'
 import { createAsyncThunk, createSlice, isAnyOf } from '@reduxjs/toolkit'
 import type {
   UnknownAsyncThunkFulfilledAction,

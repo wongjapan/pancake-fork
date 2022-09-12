@@ -1,7 +1,7 @@
 import { BigNumber as EthersBigNumber } from '@ethersproject/bignumber'
 import { parseUnits } from '@ethersproject/units'
-import { SerializedFarmPublicData } from '@pancakeswap/farms'
-import { Token } from '@pancakeswap/sdk'
+import { SerializedFarmPublicData } from '@arborswap/farms'
+import { Token } from '@arborswap/sdk'
 import BigNumber from 'bignumber.js'
 import {
   CampaignType,

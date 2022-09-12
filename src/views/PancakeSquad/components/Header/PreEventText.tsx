@@ -1,5 +1,5 @@
-import { ContextApi } from '@pancakeswap/localization'
-import { Text } from '@pancakeswap/uikit'
+import { ContextApi } from '@arborswap/localization'
+import { Text } from '@arborswap/uikit'
 import { SaleStatusEnum, UserStatusEnum } from '../../types'
 
 type PreEventProps = {

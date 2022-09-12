@@ -1,6 +1,6 @@
 import { useState, useCallback } from 'react'
 import styled from 'styled-components'
-import { Text, PancakeToggle, Toggle, Flex, Modal, InjectedModalProps, ThemeSwitcher, Box } from '@pancakeswap/uikit'
+import { Text, PancakeToggle, Toggle, Flex, Modal, InjectedModalProps, ThemeSwitcher, Box } from '@arborswap/uikit'
 import {
   useAudioModeManager,
   useExpertModeManager,
@@ -9,11 +9,11 @@ import {
   useUserSingleHopOnly,
   useZapModeManager,
 } from 'state/user/hooks'
-import { ChainId } from '@pancakeswap/sdk'
+import { ChainId } from '@arborswap/sdk'
 import { SUPPORT_ZAP } from 'config/constants/supportChains'
 import { useSwapActionHandlers } from 'state/swap/useSwapActionHandlers'
 import { useActiveChainId } from 'hooks/useActiveChainId'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@arborswap/localization'
 import useTheme from 'hooks/useTheme'
 import QuestionHelper from '../../QuestionHelper'
 import TransactionSettings from './TransactionSettings'

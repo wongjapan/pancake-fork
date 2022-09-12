@@ -12,9 +12,9 @@ import {
   BlockIcon,
   Button,
   useModal,
-} from '@pancakeswap/uikit'
+} from '@arborswap/uikit'
 import styled from 'styled-components'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@arborswap/localization'
 import { REGISTRATION, LIVE } from 'config/constants/trading-competition/phases'
 import { YourScoreProps } from '../../types'
 import UserRankBox from './UserRankBox'

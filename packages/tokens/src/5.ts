@@ -1,4 +1,4 @@
-import { ChainId, Token, WETH9 } from '@pancakeswap/sdk'
+import { ChainId, Token, WETH9 } from '@arborswap/sdk'
 import { USDC_GOERLI } from './common'
 
 export const goerliTestnetTokens = {

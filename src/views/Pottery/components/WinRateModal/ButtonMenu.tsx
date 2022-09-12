@@ -1,7 +1,7 @@
 import BigNumber from 'bignumber.js'
 import useActiveWeb3React from 'hooks/useActiveWeb3React'
-import { useTranslation } from '@pancakeswap/localization'
-import { Button, Flex, HelpIcon, useTooltip } from '@pancakeswap/uikit'
+import { useTranslation } from '@arborswap/localization'
+import { Button, Flex, HelpIcon, useTooltip } from '@arborswap/uikit'
 import { getBalanceNumber } from 'utils/formatBalance'
 
 interface ButtonMenuProps {

@@ -1,6 +1,6 @@
 // Constructing the two forward-slash-separated parts of the 'Add Liquidity' URL
 // Each part of the url represents a different side of the LP pair.
-import { bscTokens } from '@pancakeswap/tokens'
+import { bscTokens } from '@arborswap/tokens'
 
 const getLiquidityUrlPathParts = ({
   quoteTokenAddress,

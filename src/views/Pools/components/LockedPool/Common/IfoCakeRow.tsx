@@ -1,8 +1,8 @@
 import styled from 'styled-components'
-import { Flex, Text, TooltipText, useTooltip, Box, Link } from '@pancakeswap/uikit'
+import { Flex, Text, TooltipText, useTooltip, Box, Link } from '@arborswap/uikit'
 
 import { BalanceWithLoading } from 'components/Balance'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@arborswap/localization'
 import { useIfoCredit, useIfoCeiling } from 'state/pools/hooks'
 import { getBalanceNumber } from 'utils/formatBalance'
 import { getICakeWeekDisplay } from 'views/Pools/helpers'

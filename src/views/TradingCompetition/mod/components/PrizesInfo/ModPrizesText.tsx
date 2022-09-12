@@ -1,5 +1,5 @@
-import { Flex, Heading, Text } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { Flex, Heading, Text } from '@arborswap/uikit'
+import { useTranslation } from '@arborswap/localization'
 import Image from 'next/image'
 import styled from 'styled-components'
 import FlipperBunny from '../../../pngs/MoD-flipper.png'

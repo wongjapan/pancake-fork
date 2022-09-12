@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Flex, Box } from '@pancakeswap/uikit'
+import { Flex, Box } from '@arborswap/uikit'
 import { GreyCard } from 'components/Card'
 import useActiveWeb3React from 'hooks/useActiveWeb3React'
 import { usePotteryData } from 'state/pottery/hook'

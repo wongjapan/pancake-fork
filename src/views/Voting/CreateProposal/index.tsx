@@ -14,16 +14,16 @@ import {
   Text,
   useModal,
   useToast,
-} from '@pancakeswap/uikit'
-import { useWeb3React, useSignMessage } from '@pancakeswap/wagmi'
+} from '@arborswap/uikit'
+import { useWeb3React, useSignMessage } from '@arborswap/wagmi'
 import times from 'lodash/times'
 import isEmpty from 'lodash/isEmpty'
 import { useInitialBlock } from 'state/block/hooks'
 import { SnapshotCommand } from 'state/types'
 
 import { getBlockExploreLink } from 'utils'
-import truncateHash from '@pancakeswap/utils/truncateHash'
-import { useTranslation } from '@pancakeswap/localization'
+import truncateHash from '@arborswap/utils/truncateHash'
+import { useTranslation } from '@arborswap/localization'
 import Container from 'components/Layout/Container'
 import { DatePicker, TimePicker, DatePickerPortal } from 'views/Voting/components/DatePicker'
 import ConnectWalletButton from 'components/ConnectWalletButton'

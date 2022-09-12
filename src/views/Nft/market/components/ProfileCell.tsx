@@ -1,6 +1,6 @@
 import styled from 'styled-components'
-import { Box, Flex, Skeleton, Text, ProfileAvatar } from '@pancakeswap/uikit'
-import truncateHash from '@pancakeswap/utils/truncateHash'
+import { Box, Flex, Skeleton, Text, ProfileAvatar } from '@arborswap/uikit'
+import truncateHash from '@arborswap/utils/truncateHash'
 import { useProfileForAddress } from 'state/profile/hooks'
 import { NextLinkFromReactRouter } from 'components/NextLink'
 

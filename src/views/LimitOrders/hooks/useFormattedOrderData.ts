@@ -1,6 +1,6 @@
 import { useMemo } from 'react'
 import { Order } from '@gelatonetwork/limit-orders-lib'
-import { Currency, CurrencyAmount, Fraction, Token } from '@pancakeswap/sdk'
+import { Currency, CurrencyAmount, Fraction, Token } from '@arborswap/sdk'
 import { useCurrency } from 'hooks/Tokens'
 import useGelatoLimitOrdersLib from 'hooks/limitOrders/useGelatoLimitOrdersLib'
 import useActiveWeb3React from 'hooks/useActiveWeb3React'

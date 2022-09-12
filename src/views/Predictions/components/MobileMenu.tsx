@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { useWeb3React } from '@pancakeswap/wagmi'
+import { useWeb3React } from '@arborswap/wagmi'
 import {
   ArrowBackIcon,
   ArrowForwardIcon,
@@ -9,7 +9,7 @@ import {
   ChartIcon,
   HistoryIcon,
   IconButton,
-} from '@pancakeswap/uikit'
+} from '@arborswap/uikit'
 import useLocalDispatch from 'contexts/LocalRedux/useLocalDispatch'
 import { PredictionStatus } from 'state/types'
 import { useGetPredictionsStatus, useIsChartPaneOpen, useIsHistoryPaneOpen } from 'state/predictions/hooks'

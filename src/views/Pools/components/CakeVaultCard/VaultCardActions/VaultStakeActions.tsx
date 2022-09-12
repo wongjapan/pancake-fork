@@ -1,4 +1,4 @@
-import { Flex, Skeleton, useModal } from '@pancakeswap/uikit'
+import { Flex, Skeleton, useModal } from '@arborswap/uikit'
 import BigNumber from 'bignumber.js'
 import { DeserializedPool, VaultKey } from 'state/types'
 import NotEnoughTokensModal from '../../PoolCard/Modals/NotEnoughTokensModal'

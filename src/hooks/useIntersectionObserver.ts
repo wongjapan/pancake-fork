@@ -1,4 +1,4 @@
-import { useIsomorphicEffect } from '@pancakeswap/uikit'
+import { useIsomorphicEffect } from '@arborswap/uikit'
 import { useRef, useState } from 'react'
 
 const useIntersectionObserver = () => {

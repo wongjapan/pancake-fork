@@ -1,4 +1,4 @@
-import { ChainId, Token, WBNB } from '@pancakeswap/sdk'
+import { ChainId, Token, WBNB } from '@arborswap/sdk'
 import { BUSD_BSC, CAKE_MAINNET, USDT_BSC } from './common'
 
 export const bscTokens = {

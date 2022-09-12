@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { AddIcon, Button, IconButton, MinusIcon, useMatchBreakpoints, useModal, useToast } from '@pancakeswap/uikit'
+import { useTranslation } from '@arborswap/localization'
+import { AddIcon, Button, IconButton, MinusIcon, useMatchBreakpoints, useModal, useToast } from '@arborswap/uikit'
 import { ToastDescriptionWithTx } from 'components/Toast'
 import { BASE_ADD_LIQUIDITY_URL } from 'config'
 import useActiveWeb3React from 'hooks/useActiveWeb3React'

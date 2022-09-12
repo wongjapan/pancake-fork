@@ -1,8 +1,8 @@
 import { useMemo } from 'react'
-import { menuStatus } from '@pancakeswap/uikit'
+import { menuStatus } from '@arborswap/uikit'
 import useActiveWeb3React from 'hooks/useActiveWeb3React'
 import { useTheme } from 'styled-components'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@arborswap/localization'
 import { useMenuItemsStatus } from './useMenuItemsStatus'
 import config, { ConfigMenuItemsType } from '../config/config'
 

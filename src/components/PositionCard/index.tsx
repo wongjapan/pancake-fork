@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { JSBI, Pair, Percent } from '@pancakeswap/sdk'
+import { JSBI, Pair, Percent } from '@arborswap/sdk'
 import {
   Button,
   Text,
@@ -12,14 +12,14 @@ import {
   AddIcon,
   TooltipText,
   useTooltip,
-} from '@pancakeswap/uikit'
+} from '@arborswap/uikit'
 import styled from 'styled-components'
 import { NextLinkFromReactRouter } from 'components/NextLink'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@arborswap/localization'
 import useTotalSupply from 'hooks/useTotalSupply'
 import useBUSDPrice from 'hooks/useBUSDPrice'
 import { multiplyPriceByAmount } from 'utils/prices'
-import { useWeb3React } from '@pancakeswap/wagmi'
+import { useWeb3React } from '@arborswap/wagmi'
 import { BIG_INT_ZERO } from 'config/constants/exchange'
 
 import { useTokenBalance } from '../../state/wallet/hooks'

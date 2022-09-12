@@ -1,5 +1,5 @@
-import { Box, ButtonMenu, ButtonMenuItem, Flex, Text } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { Box, ButtonMenu, ButtonMenuItem, Flex, Text } from '@arborswap/uikit'
+import { useTranslation } from '@arborswap/localization'
 import { useState, memo } from 'react'
 import { useFetchPairPrices } from 'state/swap/hooks'
 import dynamic from 'next/dynamic'

@@ -1,8 +1,8 @@
 import styled from 'styled-components'
-import { Text, Spinner } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { Text, Spinner } from '@arborswap/uikit'
+import { useTranslation } from '@arborswap/localization'
 import { AutoColumn, ColumnCenter } from 'components/Layout/Column'
-import { Trade, Currency, TradeType } from '@pancakeswap/sdk'
+import { Trade, Currency, TradeType } from '@arborswap/sdk'
 
 const Wrapper = styled.div`
   width: 100%;

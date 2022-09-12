@@ -1,5 +1,5 @@
 import useSWR from 'swr'
-import { useWeb3React } from '@pancakeswap/wagmi'
+import { useWeb3React } from '@arborswap/wagmi'
 import { Ifo, PoolIds } from 'config/constants/types'
 import { ifosConfig, FAST_INTERVAL } from 'config/constants'
 import BigNumber from 'bignumber.js'

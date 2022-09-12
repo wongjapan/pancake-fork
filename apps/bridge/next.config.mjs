@@ -3,7 +3,7 @@ import { withAxiom } from 'next-axiom'
 import { createVanillaExtractPlugin } from '@vanilla-extract/next-plugin'
 
 const withVanillaExtract = createVanillaExtractPlugin()
-const withTH = transpileModules(['@pancakeswap/uikit', '@pancakeswap/wagmi', '@pancakeswap/sdk', '@pancakeswap/ui'])
+const withTH = transpileModules(['@arborswap/uikit', '@arborswap/wagmi', '@arborswap/sdk', '@arborswap/ui'])
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {

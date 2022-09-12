@@ -1,8 +1,8 @@
 import BigNumber from 'bignumber.js'
 
 import styled from 'styled-components'
-import { Flex, Text, Box } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { Flex, Text, Box } from '@arborswap/uikit'
+import { useTranslation } from '@arborswap/localization'
 import { DeserializedPool } from 'state/types'
 import { BIG_ZERO } from 'utils/bigNumber'
 import VaultApprovalAction from './VaultApprovalAction'

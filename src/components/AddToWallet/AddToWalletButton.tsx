@@ -1,4 +1,4 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@arborswap/localization'
 import {
   Button,
   ButtonProps,
@@ -8,7 +8,7 @@ import {
   TokenPocketIcon,
   OperaIcon,
   BinanceChainIcon,
-} from '@pancakeswap/uikit'
+} from '@arborswap/uikit'
 import { BAD_SRCS } from 'components/Logo/Logo'
 import { useAccount } from 'wagmi'
 import { canRegisterToken } from '../../utils/wallet'

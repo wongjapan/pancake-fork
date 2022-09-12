@@ -8,10 +8,10 @@ import {
   Heading,
   Button,
   ChevronUpIcon,
-} from '@pancakeswap/uikit'
-import { useWeb3React } from '@pancakeswap/wagmi'
+} from '@arborswap/uikit'
+import { useWeb3React } from '@arborswap/wagmi'
 import orderBy from 'lodash/orderBy'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@arborswap/localization'
 import { Vote } from 'state/types'
 import { FetchStatus } from 'config/constants/types'
 import VotesLoading from '../components/Proposal/VotesLoading'

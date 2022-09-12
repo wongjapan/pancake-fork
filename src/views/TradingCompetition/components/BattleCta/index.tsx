@@ -11,9 +11,9 @@ import {
   Text,
   Box,
   TwitterIcon,
-} from '@pancakeswap/uikit'
+} from '@arborswap/uikit'
 import { useWallet } from 'hooks/useWallet'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@arborswap/localization'
 import { FINISHED, OVER, REGISTRATION } from 'config/constants/trading-competition/phases'
 import { useRouter } from 'next/router'
 import { useCallback } from 'react'

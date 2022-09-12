@@ -1,18 +1,7 @@
 import { useState, useEffect } from 'react'
-import {
-  Card,
-  CardFooter,
-  CardHeader,
-  Heading,
-  Text,
-  TabMenu,
-  Tab,
-  Box,
-  Flex,
-  ExpandableLabel,
-} from '@pancakeswap/uikit'
+import { Card, CardFooter, CardHeader, Heading, Text, TabMenu, Tab, Box, Flex, ExpandableLabel } from '@arborswap/uikit'
 import SubgraphHealthIndicator from 'components/SubgraphHealthIndicator'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@arborswap/localization'
 import { TeamRanksProps } from '../../../types'
 import TopTradersGrid from './TopTradersGrid'
 

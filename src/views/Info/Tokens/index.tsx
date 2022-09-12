@@ -1,6 +1,6 @@
-import { Card, Heading, Text } from '@pancakeswap/uikit'
+import { Card, Heading, Text } from '@arborswap/uikit'
 import Page from 'components/Layout/Page'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@arborswap/localization'
 import { useMemo } from 'react'
 import { useAllTokenData, useTokenDatas } from 'state/info/hooks'
 import { useWatchlistTokens } from 'state/user/hooks'

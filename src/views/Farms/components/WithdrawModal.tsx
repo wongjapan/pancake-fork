@@ -1,8 +1,8 @@
 import BigNumber from 'bignumber.js'
 import { useCallback, useMemo, useState } from 'react'
-import { Button, Modal, AutoRenewIcon, Message, MessageText } from '@pancakeswap/uikit'
+import { Button, Modal, AutoRenewIcon, Message, MessageText } from '@arborswap/uikit'
 import { ModalActions, ModalInput } from 'components/Modal'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@arborswap/localization'
 import { getFullDisplayBalance } from 'utils/formatBalance'
 
 interface WithdrawModalProps {

@@ -15,13 +15,13 @@ import {
   Slider,
   Box,
   AutoRenewIcon,
-} from '@pancakeswap/uikit'
+} from '@arborswap/uikit'
 import { BigNumber, FixedNumber } from '@ethersproject/bignumber'
 import { Zero } from '@ethersproject/constants'
 import { parseUnits } from '@ethersproject/units'
-import { useWeb3React } from '@pancakeswap/wagmi'
+import { useWeb3React } from '@arborswap/wagmi'
 import { useGetMinBetAmount } from 'state/predictions/hooks'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@arborswap/localization'
 import { usePredictionsContract } from 'hooks/useContract'
 import { useGetBnbBalance, useGetCakeBalance } from 'hooks/useTokenBalance'
 import { useCallWithGasPrice } from 'hooks/useCallWithGasPrice'

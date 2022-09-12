@@ -1,6 +1,6 @@
 import styled from 'styled-components'
-import { Text, ChevronDownIcon } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { Text, ChevronDownIcon } from '@arborswap/uikit'
+import { useTranslation } from '@arborswap/localization'
 import BaseCell from './BaseCell'
 
 interface ExpandActionCellProps {

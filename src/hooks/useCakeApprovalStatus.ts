@@ -1,5 +1,5 @@
 import { useMemo } from 'react'
-import { useWeb3React } from '@pancakeswap/wagmi'
+import { useWeb3React } from '@arborswap/wagmi'
 import { useCake } from 'hooks/useContract'
 import { useSWRContract, UseSWRContractKey } from 'hooks/useSWRContract'
 

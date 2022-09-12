@@ -10,8 +10,8 @@ import {
   Text,
   useTooltip,
   WaitIcon,
-} from '@pancakeswap/uikit'
-import { useWeb3React } from '@pancakeswap/wagmi'
+} from '@arborswap/uikit'
+import { useWeb3React } from '@arborswap/wagmi'
 import styled from 'styled-components'
 import useLocalDispatch from 'contexts/LocalRedux/useLocalDispatch'
 import { Bet, PredictionStatus } from 'state/types'
@@ -19,7 +19,7 @@ import { REWARD_RATE } from 'state/predictions/config'
 import { useGetCurrentEpoch, useGetIsClaimable, useGetPredictionsStatus } from 'state/predictions/hooks'
 import { fetchLedgerData, markAsCollected } from 'state/predictions'
 import { getRoundResult, Result } from 'state/predictions/helpers'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@arborswap/localization'
 import { formatBnb, getNetPayout } from './helpers'
 import CollectWinningsButton from '../CollectWinningsButton'
 import ReclaimPositionButton from '../ReclaimPositionButton'

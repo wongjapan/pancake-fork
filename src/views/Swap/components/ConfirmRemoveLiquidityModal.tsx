@@ -1,7 +1,7 @@
 import React, { useCallback } from 'react'
-import { Currency, CurrencyAmount, Pair, Percent, Token } from '@pancakeswap/sdk'
-import { AddIcon, Button, InjectedModalProps, Text } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { Currency, CurrencyAmount, Pair, Percent, Token } from '@arborswap/sdk'
+import { AddIcon, Button, InjectedModalProps, Text } from '@arborswap/uikit'
+import { useTranslation } from '@arborswap/localization'
 import TransactionConfirmationModal, {
   ConfirmationModalContent,
   TransactionErrorContent,

@@ -1,6 +1,6 @@
 import { TransactionResponse } from '@ethersproject/providers'
-import { useTranslation } from '@pancakeswap/localization'
-import { AddIcon, Button, IconButton, MinusIcon, Skeleton, Text, useModal, useToast } from '@pancakeswap/uikit'
+import { useTranslation } from '@arborswap/localization'
+import { AddIcon, Button, IconButton, MinusIcon, Skeleton, Text, useModal, useToast } from '@arborswap/uikit'
 import ConnectWalletButton from 'components/ConnectWalletButton'
 import { ToastDescriptionWithTx } from 'components/Toast'
 import { BASE_ADD_LIQUIDITY_URL } from 'config'

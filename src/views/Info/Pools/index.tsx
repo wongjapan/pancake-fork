@@ -1,10 +1,10 @@
 import { useMemo } from 'react'
-import { Text, Heading, Card } from '@pancakeswap/uikit'
+import { Text, Heading, Card } from '@arborswap/uikit'
 import Page from 'components/Layout/Page'
 import PoolTable from 'views/Info/components/InfoTables/PoolsTable'
 import { useAllPoolData, usePoolDatas } from 'state/info/hooks'
 import { useWatchlistPools } from 'state/user/hooks'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@arborswap/localization'
 
 const PoolsOverview: React.FC<React.PropsWithChildren> = () => {
   const { t } = useTranslation()

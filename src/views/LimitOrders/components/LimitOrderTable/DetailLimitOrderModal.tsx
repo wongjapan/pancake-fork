@@ -9,8 +9,8 @@ import {
   Tag,
   Spinner,
   useMatchBreakpoints,
-} from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+} from '@arborswap/uikit'
+import { useTranslation } from '@arborswap/localization'
 import useTheme from 'hooks/useTheme'
 import { memo, useCallback, useState } from 'react'
 import styled from 'styled-components'

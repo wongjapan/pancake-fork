@@ -11,15 +11,15 @@ import {
   Text,
   Th,
   useMatchBreakpoints,
-} from '@pancakeswap/uikit'
+} from '@arborswap/uikit'
 import { getCollectionActivity } from 'state/nftMarket/helpers'
 import Container from 'components/Layout/Container'
 import TableLoader from 'components/TableLoader'
 import { Activity, Collection, NftToken } from 'state/nftMarket/types'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@arborswap/localization'
 import { useBNBBusdPrice } from 'hooks/useBUSDPrice'
 import useTheme from 'hooks/useTheme'
-import { useLastUpdated } from '@pancakeswap/hooks'
+import { useLastUpdated } from '@arborswap/hooks'
 import { useGetNftActivityFilters } from 'state/nftMarket/hooks'
 import { Arrow, PageButtons } from '../components/PaginationButtons'
 import NoNftsImage from '../components/Activity/NoNftsImage'

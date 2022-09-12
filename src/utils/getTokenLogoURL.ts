@@ -1,4 +1,4 @@
-import { ChainId, Token } from '@pancakeswap/sdk'
+import { ChainId, Token } from '@arborswap/sdk'
 
 const mapping = {
   [ChainId.BSC]: 'smartchain',

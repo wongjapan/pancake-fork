@@ -1,4 +1,4 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@arborswap/localization'
 import {
   Box,
   Card,
@@ -9,13 +9,13 @@ import {
   ExpandableLabel,
   useMatchBreakpoints,
   useToast,
-} from '@pancakeswap/uikit'
-import { useWeb3React } from '@pancakeswap/wagmi'
+} from '@arborswap/uikit'
+import { useWeb3React } from '@arborswap/wagmi'
 import { ToastDescriptionWithTx } from 'components/Toast'
 import { Ifo, PoolIds } from 'config/constants/types'
 import useCatchTxError from 'hooks/useCatchTxError'
 import { useERC20 } from 'hooks/useContract'
-import { useIsWindowVisible } from '@pancakeswap/hooks'
+import { useIsWindowVisible } from '@arborswap/hooks'
 import { useFastRefreshEffect } from 'hooks/useRefreshEffect'
 import { useRouter } from 'next/router'
 import { useEffect, useRef, useState } from 'react'

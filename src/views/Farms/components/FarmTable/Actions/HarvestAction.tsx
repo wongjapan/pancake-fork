@@ -1,6 +1,6 @@
 import { TransactionResponse } from '@ethersproject/providers'
-import { useTranslation } from '@pancakeswap/localization'
-import { Button, Heading, Skeleton, Text, TooltipText, useToast, useTooltip } from '@pancakeswap/uikit'
+import { useTranslation } from '@arborswap/localization'
+import { Button, Heading, Skeleton, Text, TooltipText, useToast, useTooltip } from '@arborswap/uikit'
 import BigNumber from 'bignumber.js'
 import Balance from 'components/Balance'
 import { ToastDescriptionWithTx } from 'components/Toast'

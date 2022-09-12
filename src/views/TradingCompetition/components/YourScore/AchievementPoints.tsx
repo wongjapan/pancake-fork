@@ -1,5 +1,5 @@
-import { Text, Flex, Image } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { Text, Flex, Image } from '@arborswap/uikit'
+import { useTranslation } from '@arborswap/localization'
 
 interface AchievementPointsProps {
   achievement: {

@@ -1,6 +1,6 @@
 import styled from 'styled-components'
-import { Box, Flex, Text, Heading, Link, Image, useMatchBreakpoints } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { Box, Flex, Text, Heading, Link, Image, useMatchBreakpoints } from '@arborswap/uikit'
+import { useTranslation } from '@arborswap/localization'
 import useTheme from 'hooks/useTheme'
 import { BallWithNumber, MatchExampleA, MatchExampleB, PoolAllocationChart } from '../svgs'
 

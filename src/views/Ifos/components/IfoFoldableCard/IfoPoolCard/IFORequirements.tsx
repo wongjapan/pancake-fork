@@ -1,7 +1,7 @@
 import { useMemo } from 'react'
-import { Text, Flex, AccountIcon, TeamBattleIcon, Box, useTooltip, LinkExternal } from '@pancakeswap/uikit'
-import { useWeb3React } from '@pancakeswap/wagmi'
-import { useTranslation } from '@pancakeswap/localization'
+import { Text, Flex, AccountIcon, TeamBattleIcon, Box, useTooltip, LinkExternal } from '@arborswap/uikit'
+import { useWeb3React } from '@arborswap/wagmi'
+import { useTranslation } from '@arborswap/localization'
 
 import OkNFTIcon from './Icons/OkNFT'
 import OkProfilePointsIcon from './Icons/OkProfilePoints'

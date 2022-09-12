@@ -1,6 +1,6 @@
 import { LotteryTicket } from 'config/constants/types'
-import { Flex, Text } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { Flex, Text } from '@arborswap/uikit'
+import { useTranslation } from '@arborswap/localization'
 import styled from 'styled-components'
 import _uniqueId from 'lodash/uniqueId'
 import { parseRetrievedNumber } from '../helpers'

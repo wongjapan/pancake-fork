@@ -3,7 +3,7 @@ import { useState, useCallback } from 'react'
 import { BSC_BLOCK_TIME } from 'config'
 import ifoV2Abi from 'config/abi/ifoV2.json'
 import ifoV3Abi from 'config/abi/ifoV3.json'
-import { bscTokens } from '@pancakeswap/tokens'
+import { bscTokens } from '@arborswap/tokens'
 import { Ifo, IfoStatus } from 'config/constants/types'
 
 import { useLpTokenPrice, usePriceCakeBusd } from 'state/farms/hooks'

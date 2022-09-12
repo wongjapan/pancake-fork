@@ -1,13 +1,13 @@
 import { useMemo, useRef, useEffect } from 'react'
 import styled from 'styled-components'
-import { Text, Flex, Box, Card } from '@pancakeswap/uikit'
+import { Text, Flex, Box, Card } from '@arborswap/uikit'
 import { NextLinkFromReactRouter } from 'components/NextLink'
 import { useAllTokenData } from 'state/info/hooks'
 import { TokenData } from 'state/info/types'
 import { CurrencyLogo } from 'views/Info/components/CurrencyLogo'
 import { formatAmount } from 'utils/formatInfoNumbers'
 import Percent from 'views/Info/components/Percent'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@arborswap/localization'
 
 const CardWrapper = styled(NextLinkFromReactRouter)`
   display: inline-block;

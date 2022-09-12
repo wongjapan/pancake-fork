@@ -1,5 +1,5 @@
 import Select, { OptionProps } from 'components/Select/Select'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@arborswap/localization'
 import { useNftStorage } from 'state/nftMarket/storage'
 import { useGetNftOrdering } from 'state/nftMarket/hooks'
 

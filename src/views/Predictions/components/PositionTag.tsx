@@ -1,17 +1,8 @@
 import { ReactNode } from 'react'
 import styled from 'styled-components'
-import {
-  ArrowUpIcon,
-  ArrowDownIcon,
-  Flex,
-  FlexProps,
-  Text,
-  useTooltip,
-  TooltipText,
-  InfoIcon,
-} from '@pancakeswap/uikit'
+import { ArrowUpIcon, ArrowDownIcon, Flex, FlexProps, Text, useTooltip, TooltipText, InfoIcon } from '@arborswap/uikit'
 import { BetPosition } from 'state/types'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@arborswap/localization'
 
 interface TagProps extends FlexProps {
   startIcon?: ReactNode

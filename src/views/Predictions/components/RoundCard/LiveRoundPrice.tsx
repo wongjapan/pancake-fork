@@ -1,7 +1,7 @@
 import React, { memo, useMemo } from 'react'
 import { BigNumber } from '@ethersproject/bignumber'
 import CountUp from 'react-countup'
-import { Skeleton, TooltipText } from '@pancakeswap/uikit'
+import { Skeleton, TooltipText } from '@arborswap/uikit'
 import { formatBigNumberToFixed } from 'utils/formatBalance'
 
 interface LiveRoundPriceProps {

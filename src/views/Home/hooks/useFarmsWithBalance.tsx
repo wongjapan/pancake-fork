@@ -8,7 +8,7 @@ import { SerializedFarmConfig } from 'config/constants/types'
 import { DEFAULT_TOKEN_DECIMAL } from 'config'
 import useSWR from 'swr'
 import { useFarmsLength } from 'state/farms/hooks'
-import { getFarmConfig } from '@pancakeswap/farms/constants'
+import { getFarmConfig } from '@arborswap/farms/constants'
 
 export type FarmWithBalance = {
   balance: BigNumber

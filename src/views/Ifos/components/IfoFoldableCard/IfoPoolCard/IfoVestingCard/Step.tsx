@@ -1,8 +1,8 @@
 import styled from 'styled-components'
 import { useMemo } from 'react'
 import { format } from 'date-fns'
-import { useTranslation } from '@pancakeswap/localization'
-import { LogoIcon, CheckmarkCircleIcon, CircleOutlineIcon, Flex, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@arborswap/localization'
+import { LogoIcon, CheckmarkCircleIcon, CircleOutlineIcon, Flex, Text } from '@arborswap/uikit'
 
 const sharedFlexStyles = `
   min-width: 86px;

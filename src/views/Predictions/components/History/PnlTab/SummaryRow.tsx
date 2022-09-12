@@ -1,7 +1,7 @@
-import { Price, Currency } from '@pancakeswap/sdk'
-import { Flex, Text } from '@pancakeswap/uikit'
+import { Price, Currency } from '@arborswap/sdk'
+import { Flex, Text } from '@arborswap/uikit'
 import { multiplyPriceByAmount } from 'utils/prices'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@arborswap/localization'
 import { useConfig } from 'views/Predictions/context/ConfigProvider'
 import { formatBnb } from '../helpers'
 

@@ -1,4 +1,4 @@
-import { useWeb3React } from '@pancakeswap/wagmi'
+import { useWeb3React } from '@arborswap/wagmi'
 import { FetchStatus } from 'config/constants/types'
 import { useCallback } from 'react'
 import { useErc721CollectionContract } from 'hooks/useContract'

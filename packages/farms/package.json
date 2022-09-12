@@ -1,5 +1,5 @@
 {
-  "name": "@pancakeswap/farms",
+  "name": "@arborswap/farms",
   "version": "0.0.1",
   "main": "./src/index.ts",
   "sideEffects": false,
@@ -7,6 +7,6 @@
     "build": "npx tsx scripts/build.ts"
   },
   "peerDependencies": {
-    "@pancakeswap/sdk": "^3.0.0"
+    "@arborswap/sdk": "^3.0.0"
   }
 }

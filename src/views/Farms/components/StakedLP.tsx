@@ -1,4 +1,4 @@
-import { Flex, Heading } from '@pancakeswap/uikit'
+import { Flex, Heading } from '@arborswap/uikit'
 import { BigNumber } from 'bignumber.js'
 import Balance from 'components/Balance'
 import { useMemo } from 'react'

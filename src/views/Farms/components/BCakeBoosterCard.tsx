@@ -11,10 +11,10 @@ import {
   Text,
   useTooltip,
   useMatchBreakpoints,
-} from '@pancakeswap/uikit'
-import { useWeb3React } from '@pancakeswap/wagmi'
+} from '@arborswap/uikit'
+import { useWeb3React } from '@arborswap/wagmi'
 import ConnectWalletButton from 'components/ConnectWalletButton'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@arborswap/localization'
 import Image from 'next/image'
 import NextLink from 'next/link'
 import styled, { useTheme } from 'styled-components'

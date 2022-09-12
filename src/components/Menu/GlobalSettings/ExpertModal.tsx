@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import { Button, Text, Flex, Message, Modal, InjectedModalProps, Checkbox } from '@pancakeswap/uikit'
+import { Button, Text, Flex, Message, Modal, InjectedModalProps, Checkbox } from '@arborswap/uikit'
 import { useExpertModeManager } from 'state/user/hooks'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@arborswap/localization'
 
 interface ExpertModalProps extends InjectedModalProps {
   setShowConfirmExpertModal: (boolean) => void

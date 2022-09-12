@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { useWalletModal } from '@pancakeswap/uikit'
+import { useTranslation } from '@arborswap/localization'
+import { useWalletModal } from '@arborswap/uikit'
 import { ConnectorNames, wallets } from 'config/wallet'
 import { useMemo } from 'react'
 import { useConnect } from 'wagmi'

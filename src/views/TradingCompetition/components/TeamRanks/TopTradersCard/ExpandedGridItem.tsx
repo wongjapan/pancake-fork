@@ -1,7 +1,7 @@
-import { Box, Flex, SkeletonV2, Text, ProfileAvatar } from '@pancakeswap/uikit'
+import { Box, Flex, SkeletonV2, Text, ProfileAvatar } from '@arborswap/uikit'
 import { useProfileForAddress } from 'state/profile/hooks'
 import styled from 'styled-components'
-import truncateHash from '@pancakeswap/utils/truncateHash'
+import truncateHash from '@arborswap/utils/truncateHash'
 import { localiseTradingVolume } from '../../../helpers'
 import { LeaderboardDataItem } from '../../../types'
 

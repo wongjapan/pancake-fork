@@ -1,6 +1,6 @@
 import { useState, useEffect, useCallback } from 'react'
 import styled from 'styled-components'
-import { Button, ArrowUpIcon } from '@pancakeswap/uikit'
+import { Button, ArrowUpIcon } from '@arborswap/uikit'
 import throttle from 'lodash/throttle'
 
 const FixedContainer = styled.div`

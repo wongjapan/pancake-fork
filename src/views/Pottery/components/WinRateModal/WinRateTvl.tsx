@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import Trans from 'components/Trans'
-import { useTranslation } from '@pancakeswap/localization'
-import { Text, Button, Flex, Box } from '@pancakeswap/uikit'
+import { useTranslation } from '@arborswap/localization'
+import { Text, Button, Flex, Box } from '@arborswap/uikit'
 import Balance from 'components/Balance'
 import { WinRateCalculatorState } from 'views/Pottery/hooks/useWinRateCalculator'
 

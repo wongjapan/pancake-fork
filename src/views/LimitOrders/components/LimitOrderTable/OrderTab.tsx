@@ -1,7 +1,7 @@
-import { ButtonMenu, ButtonMenuItem } from '@pancakeswap/uikit'
+import { ButtonMenu, ButtonMenuItem } from '@arborswap/uikit'
 import styled from 'styled-components'
 import useTheme from 'hooks/useTheme'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@arborswap/localization'
 import { ORDER_CATEGORY } from '../../types'
 
 const Wrapper = styled.div`

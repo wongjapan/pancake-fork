@@ -1,5 +1,5 @@
 import styled, { keyframes } from 'styled-components'
-import { Box } from '@pancakeswap/uikit'
+import { Box } from '@arborswap/uikit'
 
 const floatingTicketTop = keyframes`
   from {

@@ -1,6 +1,6 @@
 import { createContext, useCallback, useEffect, useState } from 'react'
-import { Language } from '@pancakeswap/uikit'
-import { useLastUpdated } from '@pancakeswap/hooks'
+import { Language } from '@arborswap/uikit'
+import { useLastUpdated } from '@arborswap/hooks'
 import memoize from 'lodash/memoize'
 import { EN, languages } from './config/languages'
 import { ContextApi, ProviderState, TranslateFunction } from './types'

@@ -1,4 +1,4 @@
-import { NoProfileAvatarIcon } from '@pancakeswap/uikit'
+import { NoProfileAvatarIcon } from '@arborswap/uikit'
 import { Profile } from 'state/types'
 import styled from 'styled-components'
 

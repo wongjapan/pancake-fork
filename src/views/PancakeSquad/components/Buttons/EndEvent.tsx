@@ -1,6 +1,6 @@
 import { NextLinkFromReactRouter } from 'components/NextLink'
-import { Button, Flex } from '@pancakeswap/uikit'
-import { ContextApi } from '@pancakeswap/localization'
+import { Button, Flex } from '@arborswap/uikit'
+import { ContextApi } from '@arborswap/localization'
 import { SaleStatusEnum, UserStatusEnum } from '../../types'
 
 type EndEventProps = {

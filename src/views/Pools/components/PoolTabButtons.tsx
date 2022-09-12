@@ -2,8 +2,8 @@ import { NextLinkFromReactRouter } from 'components/NextLink'
 import ToggleView from 'components/ToggleView/ToggleView'
 import { useRouter } from 'next/router'
 import styled from 'styled-components'
-import { ButtonMenu, ButtonMenuItem, Toggle, Text, NotificationDot } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { ButtonMenu, ButtonMenuItem, Toggle, Text, NotificationDot } from '@arborswap/uikit'
+import { useTranslation } from '@arborswap/localization'
 
 const ToggleWrapper = styled.div`
   display: flex;

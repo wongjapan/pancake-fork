@@ -10,11 +10,11 @@ import {
   Skeleton,
   Tag,
   CheckmarkCircleIcon,
-} from '@pancakeswap/uikit'
-import { useWeb3React } from '@pancakeswap/wagmi'
+} from '@arborswap/uikit'
+import { useWeb3React } from '@arborswap/wagmi'
 import { Vote } from 'state/types'
 import { formatNumber } from 'utils/formatBalance'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@arborswap/localization'
 import { FetchStatus } from 'config/constants/types'
 import { calculateVoteResults, getTotalFromVotes } from '../helpers'
 import TextEllipsis from '../components/TextEllipsis'

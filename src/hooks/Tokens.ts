@@ -1,8 +1,8 @@
 /* eslint-disable no-param-reassign */
 import { arrayify } from '@ethersproject/bytes'
 import { parseBytes32String } from '@ethersproject/strings'
-import { Currency, Token } from '@pancakeswap/sdk'
-import { TokenAddressMap } from '@pancakeswap/tokens'
+import { Currency, Token } from '@arborswap/sdk'
+import { TokenAddressMap } from '@arborswap/tokens'
 import { GELATO_NATIVE } from 'config/constants'
 import useActiveWeb3React from 'hooks/useActiveWeb3React'
 import { useAtomValue } from 'jotai'

@@ -1,7 +1,7 @@
-import { Heading, Button, Text } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { Heading, Button, Text } from '@arborswap/uikit'
+import { useTranslation } from '@arborswap/localization'
 import { CompetitionProps } from 'views/TradingCompetition/types'
-import { useWeb3React } from '@pancakeswap/wagmi'
+import { useWeb3React } from '@arborswap/wagmi'
 import { useRouter } from 'next/router'
 
 const ReactivateProfile: React.FC<React.PropsWithChildren<CompetitionProps>> = ({ onDismiss }) => {

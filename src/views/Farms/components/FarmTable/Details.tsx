@@ -1,6 +1,6 @@
 import styled from 'styled-components'
-import { ChevronDownIcon, useMatchBreakpoints } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { ChevronDownIcon, useMatchBreakpoints } from '@arborswap/uikit'
+import { useTranslation } from '@arborswap/localization'
 
 interface DetailsProps {
   actionPanelToggled: boolean

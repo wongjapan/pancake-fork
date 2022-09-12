@@ -1,10 +1,10 @@
-import { Flex, Button, Text } from '@pancakeswap/uikit'
+import { Flex, Button, Text } from '@arborswap/uikit'
 import QuestionHelper from 'components/QuestionHelper'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@arborswap/localization'
 import { useGasPriceManager } from 'state/user/hooks'
 import { GAS_PRICE_GWEI, GAS_PRICE } from 'state/types'
 import useActiveWeb3React from 'hooks/useActiveWeb3React'
-import { ChainId } from '@pancakeswap/sdk'
+import { ChainId } from '@arborswap/sdk'
 
 const GasSettings = () => {
   const { t } = useTranslation()

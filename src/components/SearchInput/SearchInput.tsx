@@ -1,8 +1,8 @@
 import { useState, useMemo, useEffect } from 'react'
-import { Input } from '@pancakeswap/uikit'
+import { Input } from '@arborswap/uikit'
 import styled from 'styled-components'
 import debounce from 'lodash/debounce'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@arborswap/localization'
 
 const StyledInput = styled(Input)`
   border-radius: 16px;

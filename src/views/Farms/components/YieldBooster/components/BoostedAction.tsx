@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { AutoRenewIcon } from '@pancakeswap/uikit'
+import { useTranslation } from '@arborswap/localization'
+import { AutoRenewIcon } from '@arborswap/uikit'
 import { ReactNode, useCallback, useContext } from 'react'
 
 import _isEmpty from 'lodash/isEmpty'

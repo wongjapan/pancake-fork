@@ -1,4 +1,4 @@
-import { useWeb3React } from '@pancakeswap/wagmi'
+import { useWeb3React } from '@arborswap/wagmi'
 import { NftToken, ApiResponseCollectionTokens } from 'state/nftMarket/types'
 import useSWR from 'swr'
 import {

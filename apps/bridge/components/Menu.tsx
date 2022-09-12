@@ -1,4 +1,4 @@
-import { CurrencyAmount, Token } from '@pancakeswap/sdk'
+import { CurrencyAmount, Token } from '@arborswap/sdk'
 import {
   BlockIcon,
   Box,
@@ -16,7 +16,7 @@ import {
   UserMenu,
   UserMenuDivider,
   UserMenuItem,
-} from '@pancakeswap/uikit'
+} from '@arborswap/uikit'
 import { useTheme as useNextTheme } from 'next-themes'
 import Image from 'next/future/image'
 import NextLink from 'next/link'

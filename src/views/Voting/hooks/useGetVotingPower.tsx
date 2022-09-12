@@ -1,5 +1,5 @@
-import { ChainId } from '@pancakeswap/sdk'
-import { useWeb3React } from '@pancakeswap/wagmi'
+import { ChainId } from '@arborswap/sdk'
+import { useWeb3React } from '@arborswap/wagmi'
 import { FetchStatus } from 'config/constants/types'
 import useSWRImmutable from 'swr/immutable'
 import { getAddress } from 'utils/addressHelpers'

@@ -1,6 +1,6 @@
-import { ModalV2 } from '@pancakeswap/uikit'
+import { ModalV2 } from '@arborswap/uikit'
 import useActiveWeb3React from 'hooks/useActiveWeb3React'
-import { ChainId } from '@pancakeswap/sdk'
+import { ChainId } from '@arborswap/sdk'
 import { useMemo } from 'react'
 import { useNetwork } from 'wagmi'
 import { atom, useAtom } from 'jotai'

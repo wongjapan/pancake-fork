@@ -12,7 +12,7 @@ import {
   CoinbaseWalletIcon,
   OperaIcon,
   WalletConfig,
-} from '@pancakeswap/uikit'
+} from '@arborswap/uikit'
 
 export enum ConnectorNames {
   MetaMask = 'metaMask',

@@ -1,6 +1,6 @@
 import styled from 'styled-components'
-import { Text, HelpIcon, Skeleton, useTooltip } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { Text, HelpIcon, Skeleton, useTooltip } from '@arborswap/uikit'
+import { useTranslation } from '@arborswap/localization'
 
 const ReferenceElement = styled.div`
   display: inline-block;

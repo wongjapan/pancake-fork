@@ -1,8 +1,8 @@
 import BigNumber from 'bignumber.js'
 
-import { CardBody, Flex, Text, CardRibbon } from '@pancakeswap/uikit'
+import { CardBody, Flex, Text, CardRibbon } from '@arborswap/uikit'
 import ConnectWalletButton from 'components/ConnectWalletButton'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@arborswap/localization'
 import { BIG_ZERO } from 'utils/bigNumber'
 import { DeserializedPool } from 'state/types'
 import { TokenPairImage } from 'components/TokenImage'

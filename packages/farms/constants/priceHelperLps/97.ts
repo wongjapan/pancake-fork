@@ -1,5 +1,5 @@
-import { SerializedFarmConfig } from '@pancakeswap/farms'
-import { bscTestnetTokens } from '@pancakeswap/tokens'
+import { SerializedFarmConfig } from '@arborswap/farms'
+import { bscTestnetTokens } from '@arborswap/tokens'
 
 const priceHelperLps: SerializedFarmConfig[] = [
   {

@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { CheckmarkIcon, CloseIcon, LinkExternal } from '@pancakeswap/uikit'
+import { CheckmarkIcon, CloseIcon, LinkExternal } from '@arborswap/uikit'
 import useActiveWeb3React from 'hooks/useActiveWeb3React'
 import { getBlockExploreLink } from 'utils'
 import { TransactionDetails } from 'state/transactions/reducer'

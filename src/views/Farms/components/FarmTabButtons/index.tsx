@@ -1,6 +1,6 @@
 import styled from 'styled-components'
-import { ButtonMenu, ButtonMenuItem, NotificationDot } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { ButtonMenu, ButtonMenuItem, NotificationDot } from '@arborswap/uikit'
+import { useTranslation } from '@arborswap/localization'
 import { useRouter } from 'next/router'
 import { NextLinkFromReactRouter } from 'components/NextLink'
 

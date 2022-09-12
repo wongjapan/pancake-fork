@@ -1,6 +1,6 @@
-import { Box, BunnyPlaceholderIcon, Flex, Text } from '@pancakeswap/uikit'
+import { Box, BunnyPlaceholderIcon, Flex, Text } from '@arborswap/uikit'
 import TradingView, { useTradingViewEvent } from 'components/TradingView'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@arborswap/localization'
 import useDebounce from 'hooks/useDebounce'
 import { useCallback, useEffect, useMemo, useState, memo } from 'react'
 import styled from 'styled-components'

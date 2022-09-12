@@ -10,11 +10,11 @@ import {
   UserMenuDivider,
   UserMenuItem,
   useTooltip,
-} from '@pancakeswap/uikit'
-import { ChainId, NATIVE } from '@pancakeswap/sdk'
+} from '@arborswap/uikit'
+import { ChainId, NATIVE } from '@arborswap/sdk'
 import { useActiveChainId, useLocalNetworkChain } from 'hooks/useActiveChainId'
 import { useNetworkConnectorUpdater } from 'hooks/useActiveWeb3React'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@arborswap/localization'
 import { useSessionChainId } from 'hooks/useSessionChainId'
 import { useHover } from 'hooks/useHover'
 import { useNetwork } from 'wagmi'

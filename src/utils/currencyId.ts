@@ -1,4 +1,4 @@
-import { Currency } from '@pancakeswap/sdk'
+import { Currency } from '@arborswap/sdk'
 
 export function currencyId(currency: Currency): string {
   if (currency?.isNative) return currency.symbol?.toUpperCase()

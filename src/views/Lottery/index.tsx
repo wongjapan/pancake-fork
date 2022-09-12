@@ -1,9 +1,9 @@
 import { useState } from 'react'
 import styled from 'styled-components'
-import { Box, Flex, Heading, Skeleton } from '@pancakeswap/uikit'
+import { Box, Flex, Heading, Skeleton } from '@arborswap/uikit'
 import { LotteryStatus } from 'config/constants/types'
 import PageSection from 'components/PageSection'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@arborswap/localization'
 import useTheme from 'hooks/useTheme'
 import { useFetchLottery, useLottery } from 'state/lottery/hooks'
 import {
