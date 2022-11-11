@@ -1,15 +1,16 @@
 export const baseColors = {
   white: 'white',
-  failure: '#ED4B9E',
+  failure: '#E56060',
+  primary: '#00783F',
+  primaryBright: '#00783F',
+  primaryDark: '#0098A1',
+  secondary: '#7645D9',
+  success: '#31D0AA',
+  warning: '#C89211',
   failure33: '#ED4B9E33',
-  primary: '#111111',
   primary0f: '#1FC7D40f',
   primary3D: '#1FC7D43D',
-  primaryBright: '#53DEE9',
-  primaryDark: '#0098A1',
-  success: '#31D0AA',
   success19: '#31D0AA19',
-  warning: '#FFB237',
   warning2D: '#ED4B9E2D',
   warning33: '#ED4B9E33',
 }
@@ -20,6 +21,7 @@ export const additionalColors = {
   gold: '#FFC700',
   silver: '#B2B2B2',
   bronze: '#E7974D',
+  roburna: '#C89211',
 }
 
 export const lightColors = {
@@ -51,6 +53,16 @@ export const lightColors = {
   gradientViolet: 'linear-gradient(180deg, #E2C9FB 0%, #CDB8FA 100%)',
   gradientVioletAlt: 'linear-gradient(180deg, #CBD7EF 0%, #9A9FD0 100%)',
   gradientGold: 'linear-gradient(180deg, #FFD800 0%, #FDAB32 100%)',
+  gradientToggle: 'linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), #F5F1EB',
+  bgLight: '#F2F3F5',
+  bgDark: '#FAF8F5',
+  bgDarker: '#F5F1EB',
+  bgWrapper: '#F2F3F5',
+
+  // added text
+  textNormal: '#464754',
+  textLight: '#807373',
+  textDimmed: '#A69F9F',
 }
 
 export const darkColors = {
@@ -83,4 +95,14 @@ export const darkColors = {
   gradientViolet: 'linear-gradient(180deg, #6C4999 0%, #6D4DB2 100%)',
   gradientVioletAlt: 'linear-gradient(180deg, #434575 0%, #66578D 100%)',
   gradientGold: 'linear-gradient(180deg, #FFD800 0%, #FDAB32 100%)',
+  gradientToggle: 'linear-gradient(0deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), #2E2C28',
+  bgLight: '#2E2C28',
+  bgDark: '#202226',
+  bgDarker: '#17181A',
+  bgWrapper: '#17181A',
+
+  // added text
+  textNormal: '#464754',
+  textLight: '#807373',
+  textDimmed: '#807373',
 }
